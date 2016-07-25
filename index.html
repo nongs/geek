@@ -1,57 +1,1614 @@
 <!DOCTYPE html>
-<html lang="en-us">
-  <head>
+<html lang="ko">
+
+<head>
     <meta charset="UTF-8">
-    <title>Geek by nongs</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
-  </head>
-  <body>
-    <section class="page-header">
-      <h1 class="project-name">Geek</h1>
-      <h2 class="project-tagline">geek live house homepage</h2>
-      <a href="https://github.com/nongs/geek" class="btn">View on GitHub</a>
-      <a href="https://github.com/nongs/geek/zipball/master" class="btn">Download .zip</a>
-      <a href="https://github.com/nongs/geek/tarball/master" class="btn">Download .tar.gz</a>
+    <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width">
+    <title>GEEK Live House</title>
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/layout.css">
+    <script type="text/javascript" src="js/jquery-1.12.2.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+</head>
+
+<body data-spy="scroll" data-target=".navbar-scroll">
+    <!-- 인트로 시작 -->
+    <section id="intro">
+        <!-- 인트로 헤더 시작 -->
+        <header>
+            <h1><a href="#intro"><img src="img/logo.png" alt="긱라이브하우스 로고"></a></h1>
+            <nav class="clearfix">
+                <h2 class="hidden">긱라이브하우스 메뉴</h2>
+                <span class="menuIcon"><i class="fa fa-bars" aria-hidden="true"></i></span>
+                <div class="outermenu">
+                    <ul class="menu">
+                        <li class="menu-main"><a href="#intro">Main</a>
+                            <ul>
+                                <li><a href="#greeting">인사말</a></li>
+                                <li><a href="#map">약도 및 위치정보</a></li>
+                                <li><a href="#parking">주차 안내</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-stage"><a href="#stage">대관 및 오디션</a>
+                            <ul>
+                                <li class="sublnb"><a href="#theGeek">GEEK LIVE HOUSE</a>
+                                    <ul>
+                                        <li><a href="#theGeek_highSound">하이 퀄리티 사운드</a></li>
+                                        <li><a href="#theGeek_highlight">조명과 제반 시설</a></li>
+                                        <li><a href="#theGeek_screenproject">스크린 프로젝터</a></li>
+                                        <li><a href="#theGeek_ticket">티켓 제작</a></li>
+                                        <li><a href="#theGeek_monitor">프롬프트 모니터</a></li>
+                                        <li><a href="#theGeek_afreeca">아프리카TV</a></li>
+                                        <li><a href="#theGeek_recording">영상 녹화 서비스</a></li>
+                                        <li><a href="#theGeek_livePost">긱 라이브 포스트</a></li>
+                                        <li><a href="#theGeek_salong">살롱노마드</a></li>
+                                    </ul>
+                                </li>
+                                <li class="sublnb"><a href="#rent">대관 안내</a>
+                                    <ul>
+                                        <li><a href="#infoRent">가격정보 및 이용안내</a></li>
+                                        <li><a href="#noticeRent">추가 공지 사항</a></li>
+                                    </ul>
+                                </li>
+                                <li class="sublnb"><a href="#audition">오디션 안내</a>
+                                    <ul>
+                                        <li><a href="#audition">오디션 안내</a></li>
+                                        <li><a href="#howtoaudition">응모 방법</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="menu-perform"><a href="#perform">공연정보 및 갤러리</a>
+                            <ul>
+                                <li><a href="#soundgeek">소리滿Geek</a></li>
+                                <li><a href="#planGall">기획공연</a></li>
+                                <li><a href="#rentGall">대관공연</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <span class="menu-close"><i class="fa fa-close" aria-hidden='true'></i></span>
+                </div>
+            </nav>
+            <figure>
+                <img src="img/main.jpg" alt="긱라이브하우스 사진">
+            </figure>
+        </header>
+        <!-- 인트로 헤더 끝 -->
+        <!-- 인트로 컨텐츠 시작 -->
+        <section>
+            <h2 class="hidden">인트로 컨텐츠</h2>
+            <!-- 인트로 인사말 시작 -->
+            <section id="greeting" class="clearfix">
+                <h3 class="col-sm-3 col-xs-12">'퀄리티있는 공연장'</h3>
+                <article class="col-sm-9 col-xs-12">
+                    <h4 class="hidden">긱 라이브 하우스 인사말</h4>
+                    <p>'긱 라이브 하우스(GEEK live house)'는 2003년 2월에 신촌과 홍대 사이의 요충지에 문을 열었습니다.
+                        <br/> 전통의 신촌 대표 음악 공연장으로써, '긱 라이브 하우스는' 대한민국의 음악 문화와 그 맥을 같이 하며 함께 호흡해 왔습니다.</p>
+                    <p>프로뮤지션과 엔지니어가 협심하여 만든 공연장이니 만큼, 90~120석 가량의 소규모 공연장이지만 전문적인 셋팅의 음향과 LED 무빙 등의 화려한 조명, 여러 제반시설에서 언제나 뮤지션을 생각하고 함께 고민하고 있습니다.</p>
+                    <p>아마츄어부터 프로까지, 밴드 음악과 어코스틱, 힙합 등 모든 장르의 각종 대관공연과 기획공연을 다양하고 꾸준하게 해 온 '긱라이브하우스'는,</p>
+                    <p>대관 공연을 하시는 분들께는 녹화 영상과 함께 화려한 평생의 추억을,
+                        <br/>프로 뮤지션들께는 양질의 공연으로 멋진 음악 생활의 한 페이지가 당당히 되기를,
+                        <br/>마지막으로 공연을 보러 오시는 분들께는 쾌적하고 즐거운 환경으로,
+                        <br/>그저 단순한 '관람' 이 아닌, 하나의 '공감' 과 '호흡'을 함께 느끼시기를 희망합니다.</p>
+                    <p>무대위의 공연자와 관객, 공연장 모두가 더욱 빛날 내일을 그리며 대한민국 공연과 음악문화의 한 축을 꿋꿋이 자리매김해 나가며 진솔하고 감성이 닿아있는 문화 공간으로 건강한 에너지가 꿈틀대는 라이브 클럽 '긱 라이브 하우스'는 음악과 함께 하는 여러 분들을 늘 웃으며 기다립니다.</p>
+                    <p>- 긱 라이브 하우스의 모든 마음 일동 올림 -</p>
+                </article>
+            </section>
+            <!-- 인트로 인사말 끝 -->
+            <!-- 인트로 위치안내 시작 -->
+            <section id="map" class="clearfix">
+                <h3 class="col-lg-3 col-md-12">약도 및 위치</h3>
+                <figure class="map col-lg-9 col-md-12">
+                    <img src="img/map.jpg" alt="긱라이브하우스 지도">
+                    <figcaption class="hidden">긱 라이브 하우스 약도</figcaption>
+                </figure>
+                <p>TEL. 02 - 3141 - 5292<span class="blockspan">서울시 마포구 동교동 185-10 (신촌로 10길 7) B1</span></p>
+                <article id="parking">
+                    <h4 class="col-sm-3 col-xs-12">주차 안내</h4>
+                    <p class="col-sm-9 col-xs-12">현재 건물 전체가 지정주차 구역이어서 주차가 불가하다는 말씀을 드립니다.
+                        <br/>(건물에 주차시, 공연중이나 관람 중 차량 이동 등 여러 상황이 발생할 수 있습니다)</p>
+                    <p class="col-sm-9 col-xs-12">신촌역 8번 출구 앞에 공영주차장이 있사오니, 그곳을 이용하시면 되겠습니다.</p>
+                    <p class="col-sm-9 col-xs-12">저희로써도 최대한의 편의를 봐드리고 싶지만, 주변 공간이 협소하다 보니 이럴 수 밖에 없다는 점 송구스럽게 생각하고, 넓은 아량으로 이해해주시면 좋겠습니다.<span class="blockspan">감사합니다.</span></p>
+                </article>
+            </section>
+            <!-- 인트로 위치안내 끝 -->
+        </section>
+        <!-- 인트로 컨텐츠 끝 -->
+        <!-- 인트로 푸터 시작 -->
+        <footer>
+            <div class="snsIco">
+                <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                <i class="fa fa-youtube" aria-hidden="true"></i>
+            </div>
+            <div class="footerCopy">
+                <address>TEL. 02-3141-5292 &nbsp;서울시 마포구 동교동 185-10 국일빌딩 B1 (신촌로 10길 7)</address>
+                <p>&copy; 2016. GEEK LIVE HOUSE All right reserved.</p>
+            </div>
+        </footer>
+        <!-- 인트로 푸터 끝 -->
     </section>
+    <div class="backbg"></div>
+    <!-- 인트로끝 -->
+    <!-- 이미지 버튼 시작 -->
+    <div id="forStage" class="forStage imageBtn col-xs-11">
+    	<h2 class="btn_title_hidden">대관 & 인터뷰<span class="blockspan"><i class="fa fa-angle-double-left" aria-hidden="true"></i></span></h2>
+        <!-- 대관 & 인터뷰 시작 -->
+        <section id="stage">
+            <!-- 대관 & 인터뷰 헤더 시작 -->
+            <header class="clearfix">
+                <h1><a href="#intro"><img src="img/logo.png" alt="긱라이브하우스 로고"></a></h1>
+                <nav class="clearfix">
+                    <h2 class="hidden">긱라이브하우스 메뉴</h2>
+                    <span class="menuIcon"><i class="fa fa-bars" aria-hidden="true"></i></span>
+                </nav>
+            </header>
+            <!-- 대관 & 인터뷰 헤더 끝 -->
+            <!-- 대관 & 인터뷰 스크롤 네비게이션 시작 -->
+            <aside class="navbar-scroll">
+                <h2 class="hidden">대관 & 인터뷰 스크롤 네비게이션</h2>
+                <ul class="nav">
+                    <li class="sublnb"><a href="#theGeek">GEEK LIVE HOUSE</a>
+                        <ul>
+                            <li><a href="#theGeek_highSound">하이 퀄리티 사운드</a></li>
+                            <li><a href="#theGeek_highlight">조명과 제반 시설</a></li>
+                            <li><a href="#theGeek_screenproject">스크린 프로젝터</a></li>
+                            <li><a href="#theGeek_ticket">티켓 제작</a></li>
+                            <li><a href="#theGeek_monitor">프롬프트 모니터</a></li>
+                            <li><a href="#theGeek_afreeca">아프리카TV</a></li>
+                            <li><a href="#theGeek_recording">영상 녹화 서비스</a></li>
+                            <li><a href="#theGeek_livePost">긱 라이브 포스트</a></li>
+                            <li><a href="#theGeek_salong">살롱노마드</a></li>
+                        </ul>
+                    </li>
+                    <li class="sublnb"><a href="#rent">대관 안내</a>
+                        <ul>
+                            <li><a href="#infoRent">가격정보 및 이용안내</a></li>
+                            <li><a href="#noticeRent">추가 공지 사항</a></li>
+                        </ul>
+                    </li>
+                    <li class="sublnb"><a href="#audition">오디션 안내</a>
+                        <ul>
+                            <li><a href="#audition">오디션 안내</a></li>
+                            <li><a href="#howtoaudition">응모 방법</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </aside>
+            <!-- 대관 & 인터뷰 스크롤 네비게이션 끝 -->
+            <!-- 대관 & 인터뷰 컨텐츠 시작 -->
+            <section>
+                <h2 class="hidden">대관 & 인터뷰 컨텐츠</h2>
+                <!-- 긱 라이브 하우스 특징 시작 -->
+                <article id="theGeek">
+                    <h3>GEEK Live House</h3>
+                    <dl id="theGeek_highSound" class="panel panel-info">
+                        <dt class="panel-heading"><a herf="#">프로페셔날 장비로 이루어지는 하이 퀄리티 사운드<span class="caret"></span></a></dt>
+                        <dd class="panel-body">각 팀의 리허설 사운드를 그래도 저장 후 공연시 Recall 하여 사용할 수 있는 디지털 콘솔 YAMAHA O2R을 구비하여 공연시에도 깨끗한 사운드로 감상할 수 있는 PA 시스템(우퍼 / 서라운드 스피커 추가)을 비롯, Mesa-boogie, Marshall, Ampeg, Pearl, Shure & AKG Wireless system 등의 각종 프로페셔널 악기들로 더욱 고급스러운 사운드를 만들어내는 긱라이브 하우스만의 음향시스템을 경험해 보세요.</dd>
+                        <dd class="panel-body">'음향의 긱'. 괜히 있는 말이 아닙니다.</dd>
+                        <dd class="panel-body">
+                            <button class="more btn" data-toggle="modal" data-target="#highSound">자세히 보기</button>
+                        </dd>
+                    </dl>
+                    <!-- 하이 퀄리티 사운드 모달 -->
+                    <div class="modal fade" id="highSound" tabindex="-1" role="dialog">
+                        <div class="modal-dialog modal-lg">
+                            <section class="modal-content">
+                                <header class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                    <h4 class="modal-title" data-toggle="tooltip" data-placement="bottom" title="GEEK LIVE HOUSE 의 음향장비입니다. 음향에 있어서 만족하실만한 톤을 기대해보실만 할 것이며, 프로 뮤지션과 엔지니어가 뮤지션의 입장에서 만든 공연장이니 만큼 어설프게 세팅되어 있지 않습니다.">GEEK LIVEHOUSE EQUIPMENT SET</h4>
+                                </header>
+                                <article class="modal-body">
+                                    <ul class="highsounds">
+                                        <li class="viewItem">
+                                            <h5>MAIN CONSOLE - YAMAHA O2R</h5>
+                                            <figure>
+                                                <img src="img/yamahaO2R.jpg" alt="YAMAHA O2R 사진">
+                                                <figcaption>YAMAHA O2R</figcaption>
+                                            </figure>
+                                            <p>디지털 콘솔의 명기, YAMAHA O2R 입니다. 힙합이나 밴드나 매번 세팅을 달리 하지 않고 언제나 신속하고 적절히 대응할 수 있습니다. 특히 자주 하시는 분들은 세팅을 저장해서 더욱 시간을 줄일 수 있습니다. 디지털 콘솔 특유의 상호 채널 간섭이 적은 것도 매우 강점입니다.</p>
+                                        </li>
+                                        <li>
+                                            <h5>SUB CONSOLE - EURORACK pro RX1202 FX</h5>
+                                            <figure>
+                                                <img src="img/eurorackproRX1202fx.jpg" alt="EURORACK pro RX1202 FX 사진">
+                                                <figcaption>EURORACK pro RX1202 FX</figcaption>
+                                            </figure>
+                                            <p>CDP, PC 등 부가장치와, 여유 채널을 위한 서브 콘솔 BEHRINGER EURORACK pro RX1202 FX 입니다.</p>
+                                        </li>
+                                        <li>
+                                            <h5>MAIN EQUALIZER - dbx 1231 / ALTO EQU131VU</h5>
+                                            <figure>
+                                                <img src="img/dbx1231.jpg" alt="dbx 1231 사진">
+                                                <img src="img/altoEQU131vu.jpg" alt="ALTO EQU131VU 사진">
+                                                <figcaption>dbx 1231 / ALTO EQU131VU</figcaption>
+                                            </figure>
+                                            <p>31밴드의 넉넉함과 고른 영역의 컨트롤은 MAIN SPEAKER로 나가는 소리를 풍성하고 샤프하게 만들어주는데에 일조하고 있습니다.</p>
+                                        </li>
+                                        <li>
+                                            <h5>MONITOR EQUALIZER - ULTRA GRAPH pro FBQ 3102</h5>
+                                            <figure>
+                                                <img src="img/fbq3102.jpg" alt="ULTRA GRAPH pro FBQ 3102 사진">
+                                                <figcaption>ULTRA GRAPH pro FBQ 3102</figcaption>
+                                            </figure>
+                                            <p>아무리 밖으로 나가는 소리가 훌륭하다 한들, 무대 위에서 아티스트가 듣는 자신들의 소리나 반주가 엉망이라면 안 되겠죠?
+                                                <br/>FBQ 3102는 무대 위의 모니터 상황을 더욱 명료하게 해 줍니다.</p>
+                                        </li>
+                                        <li>
+                                            <h5>EFFECTOR - YAMAHA SPX2000</h5>
+                                            <figure>
+                                                <img src="img/yamahaSPX2000.jpg" alt="YAMAHA SPX2000 사진">
+                                                <figcaption>YAMAHA SPX2000</figcaption>
+                                            </figure>
+                                            <p>공간계 이펙터 명기 중의 명기, YAMAHA SPX 2000 입니다. 자연스럽고 선명한 리버브와 딜레이 등을 담당하고 있습니다.
+                                                <br/>왜곡이 적고 샤프하게 걸리는 것이 특징입니다.</p>
+                                        </li>
+                                        <li>
+                                            <h5>VOCAL PREAMP - ULTRA GAIN pro MIC 2200</h5>
+                                            <figure>
+                                                <img src="img/ultragainproMIC2200.jpg" alt="ULTRA GAIN pro MIC 2200 사진">
+                                                <figcaption>ULTRA GAIN pro MIC 2200</figcaption>
+                                            </figure>
+                                            <p>보컬 프리앰프 BEHRINGER ULTRA GAIN pro MIC 2200입니다. 진공관 특유의 따뜻한 느낌과 색깔 있는 필터가 보이스에 매력 있는 칼라를 입혀주고 있습니다.</p>
+                                        </li>
+                                        <li>
+                                            <h5>COMPRESSOR - MDX 2100 / S.COM STEREO COMPRESSOR</h5>
+                                            <figure>
+                                                <img src="img/mdx2100.jpg" alt="MDX 2100 사진">
+                                                <img src="img/scom_stereo_comp.jpg" alt="S.COM STEREO COMPRESSOR 사진">
+                                                <figcaption>MDX 2100 / S.COM STEREO COMPRESSOR</figcaption>
+                                            </figure>
+                                            <p>MDX 2100은 마이크 컴프레서입니다. 로우컷 등과 단단한 느낌이 좋습니다.
+                                                <br/>S.COM STEREO COMPRESSOR는 드럼을 담당하고 있으며 자칫 뭉개지기 쉬운 드럼 소리를 밀도 있게 잡아주고 있습니다.</p>
+                                        </li>
+                                        <li>
+                                            <h5>CROSSOVER - dbx 223XL</h5>
+                                            <figure>
+                                                <img src="img/DBX223XL.jpg" alt="dbx 223XL 사진">
+                                                <figcaption>dbx 223XL</figcaption>
+                                            </figure>
+                                            <p>저음을 따로 분리하여 우퍼로 송출하고, 각 헤르츠 대역을 구분하는 역할을 하고 있습니다. 이로 인해 간섭 없이 더욱 명료한 소리를 느끼실 수 있습니다.</p>
+                                        </li>
+                                        <li>
+                                            <h5>WOOPER SPEAKER AMP - CROWN MACRO TECH 3600VZ</h5>
+                                            <figure>
+                                                <img src="img/crownMA3600vz.jpg" alt="CROWN MACRO TECH 3600VZ 사진">
+                                                <figcaption>CROWN MACRO TECH 3600VZ</figcaption>
+                                            </figure>
+                                            <p>파워앰프의 명가, 크라운의 MACRO TECH 3600VZ 입니다. 우퍼의 생명인 밀도 있는 댐핑감에 일조하고 있습니다.</p>
+                                        </li>
+                                        <li>
+                                            <h5>MAIN SPEAKER AMP - CROWN XTi 4000</h5>
+                                            <figure>
+                                                <img src="img/crownXTi4000.jpg" alt="CROWN XTi 4000 사진">
+                                                <figcaption>CROWN XTi 4000</figcaption>
+                                            </figure>
+                                            <p>메인 스피커 앰프 또한 크라운의 XTi 4000 입니다. 더욱 힘 있고 자연스러운 소리를 MAIN SPEAKER에 전달해주고 있습니다.</p>
+                                        </li>
+                                        <li>
+                                            <h5>MONITOR SPEAKER AMP - SM 2400</h5>
+                                            <figure>
+                                                <img src="img/sm2400.jpg" alt="SM 2400 사진">
+                                                <figcaption>SM 2400</figcaption>
+                                            </figure>
+                                            <p>모니터 스피커 앰프입니다. 정직한 소리를 전달하는 안정적인 앰프입니다.</p>
+                                        </li>
+                                        <li>
+                                            <h5>MAIN SPEAKER - JBL SR 4733X</h5>
+                                            <figure>
+                                                <img src="img/jblSR4773x.jpg" alt="JBL SR 4733X 사진">
+                                                <figcaption>JBL SR 4733X</figcaption>
+                                            </figure>
+                                            <p>선명한 해상도와 강한 파워, 단단한 미들이 인상적인 JBL 의 명기 4733X 입니다. 공연장 내의 실사진입니다.</p>
+                                        </li>
+                                        <li>
+                                            <h5>WOOPER SPEAKER - Ecler EPC 218</h5>
+                                            <figure>
+                                                <img src="img/epc2100.jpg" alt="Ecler EPC 218 사진">
+                                                <figcaption>Ecler EPC 218</figcaption>
+                                            </figure>
+                                            <p>밴드건 힙합이건, 어느 형태의 공연에서도 따로 분리한 이 우퍼가 더욱 박력있는 저음을 선물해 줍니다. 가슴을 두드리는 저음을 느끼실 수 있습니다. 특히, 저음이 빈약한 공연장들과 구별되는 GEEK LIVE HOUSE 만의 특징 중 하나라고 할 수 있겠습니다.</p>
+                                        </li>
+                                        <li>
+                                            <h5>MONITOR SPEAKER - EV SX 300</h5>
+                                            <figure>
+                                                <img src="img/evSX300.jpg" alt="EV SX 300 사진">
+                                                <figcaption>EV SX 300</figcaption>
+                                            </figure>
+                                            <p>명료하고 깨끗한 소리의 명기 EV 답게, 무대 위에서 더욱 정확하고 고른 모니터를 도와주는 EV SX 300 스피커입니다.
+                                                <br/>무대 좌우에 2기씩, 총 4기가 설치되어 있습니다.</p>
+                                        </li>
+                                        <li>
+                                            <h5>MONITOR SPEAKER - FBT extrude 2.5a</h5>
+                                            <figure>
+                                                <img src="img/fbtEXTRUDE25a.jpg" alt="FBT extrude 2.5a 사진">
+                                                <figcaption>FBT extrude 2.5a</figcaption>
+                                            </figure>
+                                            <p>드럼과 DJ 를 위한 별도의 모니터 스피커 FBT extrude 2.5a 입니다. ITALY 산 제품이고, 악기의 자체 소리가 큰 드러머와, 좀 다른 EQ 세팅을 원하는 DJ분을 위한 최적의 모니터를 제공합니다. 크기는 작지만 120W 고출력의 액티브 스피커입니다.</p>
+                                        </li>
+                                        <li>
+                                            <h5>CDP - PIONEER CDJ 500S</h5>
+                                            <figure>
+                                                <img src="img/PionnerCDJ500s.jpg" alt="PIONEER CDJ 500S 사진">
+                                                <figcaption>PIONEER CDJ 500S</figcaption>
+                                            </figure>
+                                            <p>CDP 는 PIONEER CDJ 500S 입니다. 템포와 피치 조절도 가능하고, AUTO CUE 기능으로 PLAY/STOP 의 오류를 최대한 줄였습니다. PC 와 함께 MR 재생의 한 축을 담당하고 있습니다(본 장비는 대여품목이 아니라, 컨트롤 룸의 재생용입니다).</p>
+                                        </li>
+                                        <li>
+                                            <h5>TURN TABLE - Technics SL 1200MK2 / Technics SL 1200MK3D (110v)</h5>
+                                            <figure>
+                                                <img src="img/Turn_tables.jpg" alt="Turn tables 사진">
+                                                <figcaption>Turn tables</figcaption>
+                                            </figure>
+                                            <p>힙합 DJ 공연시 대여해드리는 장비입니다. 다만 카트리지는 가져오셔야 합니다.</p>
+                                        </li>
+                                        <li>
+                                            <h5>DRUMS - PEARL VISION BIRCH SET</h5>
+                                            <figure>
+                                                <img src="img/Pearlvision.jpg" alt="PEARL VISION BIRCH SET 사진">
+                                                <figcaption>PEARL VISION BIRCH SET</figcaption>
+                                            </figure>
+                                            <p>하이햇 (Bosphorus), 라이드, 차이나 (모두 Zildjian) 는 기본 제공이며, 크래쉬 심벌은 대여 (Bosphorus Gold series 16`` / 18``) 입니다.
+                                                <br/>스네어는 야마하 코퍼(Handcraft, Japan), 하이햇 스탠드도 야마하입니다.
+                                                <br/>모든 기통에 마이킹이 되어 있고 오버 헤드로 섬세한 공간음까지 잡아냈습니다. 페달은 벨트 타입 PEARL 싱글 페달입니다.</p>
+                                        </li>
+                                        <li>
+                                            <h5>BASS AMP HEAD - AMPEG SVT 4 PRO</h5>
+                                            <figure>
+                                                <img src="img/SVT4Pro.jpg" alt="AMPEG SVT 4PRO 사진">
+                                                <figcaption>AMPEG SVT 4PRO</figcaption>
+                                            </figure>
+                                            <p>두 말이 필요없는 명기, AMPEG SVT 4 PRO 입니다. 간혹 보실 수 있는 저가형 베이스 앰프들과는 확연히 다릅니다. 자연스러우며 고급스러운 암펙의 톤이 그래픽 EQ와 함께 잘 묻어나옵니다. AMPEG 캐비넷에 연결되어 있고, LINE OUT으로 빠지고 있습니다.</p>
+                                        </li>
+                                        <li>
+                                            <h5>BASS AMP HEAD(스페어용) - HARTKE HA5000</h5>
+                                            <figure>
+                                                <img src="img/HA5000.jpg" alt="HARTKE HA5000 사진">
+                                                <figcaption>HARTKE HA5000</figcaption>
+                                            </figure>
+                                            <p>평소에 제공되고 있진 않지만, 스페어로 보관되고 있는 HARTKE HA5000 베이스 앰프 헤드입니다. HARTKE 4구 캐비넷도 보관되어 있습니다.</p>
+                                        </li>
+                                        <li>
+                                            <h5>GUITAR AMP HEAD (1st GUITAR) - MESA BOOGIE DUAL RECTIFIER TREMOVERB</h5>
+                                            <figure>
+                                                <img src="img/RECTIFIER_TREMOVERB.jpg" alt="MESA BOOGIE DUAL RECTIFIER TREMOVERB 사진">
+                                                <figcaption>MESA BOOGIE DUAL RECTIFIER TREMOVERB</figcaption>
+                                            </figure>
+                                            <p>명기 중의 명기, 메사 부기 듀얼 렉티파이어 트레모버브입니다. 리드 기타 용으로 적합하고, 마샬 4구 캐비넷에 링크되어 있습니다. 풋 스위치 또한 제공됩니다. SHURE SM57로 마이킹 되어 있습니다. 기름지고 고급스러운 톤을 느껴보십시오.</p>
+                                        </li>
+                                        <li>
+                                            <h5>GUITAR AMP HEAD (2nd GUITAR) - MARSHALL JCM 2000 DSL 100</h5>
+                                            <figure>
+                                                <img src="img/marshalJCM2000.jpg" alt="MARSHALL JCM 2000 DSL 100 사진">
+                                                <figcaption>MARSHALL JCM 2000 DSL 100</figcaption>
+                                            </figure>
+                                            <p>전문 공연장 기타 앰프의 표본 중 표본인 마샬 JCM 2000 입니다. 곧게 뻗는 마샬 톤이 일품입니다. 리듬 기타 용으로 적합하며, 페달도 제공합니다. 마샬 4구 캐비넷에 링크되어 있고, SHURE SM57로 마이킹 되어 있습니다.</p>
+                                        </li>
+                                        <li>
+                                            <h5>GUITAR AMP HEAD (스페어) - MARSHALL JCM 900 SL X</h5>
+                                            <figure>
+                                                <img src="img/JCM900.jpg" alt="MARSHALL JCM 900 SL X 사진">
+                                                <figcaption>MARSHALL JCM 900 SL X</figcaption>
+                                            </figure>
+                                            <p>평소에 제공되진 않지만, 스페어로 보관되어 있는 헤드입니다. 또한 마샬 4구 케비넷도 스페어로 보관중입니다.</p>
+                                        </li>
+                                        <li>
+                                            <h5>KEYBOARD - KORG TRITON PRO 76 (76건반)</h5>
+                                            <figure>
+                                                <img src="img/tritonpro76.jpg" alt="KORG TRITON PRO 76 (76건반) 사진">
+                                                <figcaption>KORG TRITON PRO 76 (76건반)</figcaption>
+                                            </figure>
+                                            <p>범용적인 소리 및 다양하고 간편한 능력의 대명사, KORG TRITON PRO 76건반입니다. 대여료는 2만원입니다. 전원과 서스테인 페달도 제공됩니다.</p>
+                                        </li>
+                                        <li>
+                                            <h5>KEYBOARD - YAMAHA MOX8 (88건반)</h5>
+                                            <figure>
+                                                <img src="img/YamahaMOX8.jpg" alt="YAMAHA MOX8 (88건반) 사진">
+                                                <figcaption>YAMAHA MOX8 (88건반)</figcaption>
+                                            </figure>
+                                            <p>해머 건반으로, PC2X와 동일한 피아노 터치이며 88건반입니다. YAMAHA의 명기 Motif XS 와 동일한 풍부한 음원이 있습니다. 대여료는 3만원입니다. 전원과 서스테인 페달도 함께 제공됩니다.</p>
+                                            <p>* 건반 스탠드는 1단 2개를 벌려서 사용하시거나(2명의 연주자), 1명의 연주자가 2단으로 쌓아서 쓰실 수 있습니다.
+                                                <br/>보면대도 기본으로 제공됩니다.</p>
+                                        </li>
+                                        <li>
+                                            <h5>MAIN VOCAL MIC - SHURE BETA 87A WIRELESS (SLX 2) + SHURE SLX4 RECIEVER</h5>
+                                            <figure>
+                                                <img src="img/slx4_beta87a.jpg" alt="SHURE BETA 87A WIRELESS (SLX 2) + SHURE SLX4 RECIEVER 사진">
+                                                <figcaption>SHURE BETA 87A WIRELESS (SLX 2) + SHURE SLX4 RECIEVER</figcaption>
+                                            </figure>
+                                            <p>메인 보컬용 무선 마이크입니다. 매우 선명한 해상도와 민감하리만치 뛰어난 수음률을 자랑합니다.
+                                                <br/>SLX4 리시버는 스페어로 한 대가 더 준비되어 있습니다.</p>
+                                        </li>
+                                        <li>
+                                            <h5>SUB VOCAL MIC - AKG WMS 40 PRO WIRELESS</h5>
+                                            <figure>
+                                                <img src="img/Akg_WMS40DUALV.jpg" alt="AKG WMS 40 PRO WIRELESS 사진">
+                                                <figcaption>AKG WMS 40 PRO WIRELESS</figcaption>
+                                            </figure>
+                                            <p>서브 보컬용 무선 마이크입니다. 2기가 준비 되어 있으며, 전파 간섭 없이 선명하고 고른 소리를 전달해 줍니다.</p>
+                                        </li>
+                                        <li>
+                                            <h5>그 외</h5>
+                                            <p>DRUM MIC - SHURE PG 52 or Beyer Dynamic M88TG (KICK) / SHURE PG56 (TOM TOM) / SHURE SM57 (SNARE & HI HAT) / BEHRINGER C2 (OVERHEAD)
+                                                <br/>MIC - SHURE BETA58, SHURE SM58 등등</p>
+                                        </li>
+                                    </ul>
+                                    <p class="prev_btn"><i class="fa fa-angle-left" aria-hidden="true"></i></p>
+                                    <p class="next_btn"><i class="fa fa-angle-right" aria-hidden="true"></i></p>
+                                </article>
+                                <footer class="modal-footer">
+                                    <p class="modal-page"></p>
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                </footer>
+                            </section>
+                        </div>
+                    </div>
+                    <dl id="theGeek_highlight" class="panel panel-info">
+                        <dt class="panel-heading"><a herf="#">화려한 조명 시스템과 제반 시설<span class="caret"></span></a></dt>
+                        <dd class="panel-body">화려함과 부드러움! 다양한 효과를 낼 수 있는 LED 무빙과 파, 레이져와 포그 시스템 등으로 입체적으로 차별화된 조명으로 당신의 무대를 빛내드립니다.</dd>
+                        <dd class="panel-body">더불어 다양한 편의시설을 제공해드리고 있습니다.</dd>
+                        <dd class="panel-body">
+                            <button class="more btn" data-toggle="modal" data-target="#highlight">자세히 보기</button>
+                        </dd>
+                    </dl>
+                    <!-- 조명 시스템과 제반 시설 모달 -->
+                    <div class="modal fade" id="highlight" tabindex="-1" role="dialog">
+                        <div class="modal-dialog modal-lg">
+                            <section class="modal-content">
+                                <header class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                    <h4 class="modal-title" data-toggle="tooltip" data-placement="bottom" title="GEEK LIVE HOUSE 는 항상 공연자와 관객에 입장에 서고 생각하며 노력하겠습니다.">GEEK LIVE HOUSE Lights & Additional Facilities</h4>
+                                </header>
+                                <article class="modal-body">
+                                    <ul class="highlights">
+                                        <li class="viewItem">
+                                            <h5>조명 및 부대시설</h5>
+                                            <figure>
+                                                <img src="img/main.jpg" alt="조명 사진">
+                                                <figcaption>조명사진</figcaption>
+                                            </figure>
+                                            <p>GEEK LIVE HOUSE 는 백그라운드 커튼 조명, 무대 전면 스포트 라이트와 하이라이트, 드럼 및 건반 스포트 라이트는 일반 220 파 조명이고, 소수의 할로겐을 제외한 나머지 조명은 모두 LED 입니다.<br/>LED 는 갖가지 총천연색으로 매우 화사하고 멋진 느낌을 주면서, 열이 나지 않아 무대 위에서나 밑에서나 덥지 않다는 장점이 있습니다. <br/>또한 색상이나 효과도 즉각적이고 신속하게 바꿀 수 있습니다.</p>
+                                        </li>
+                                        <li>
+                                            <h5>우측 LED</h5>
+                                            <figure>
+                                                <img src="img/rightLED.jpg" alt="우측 LED 사진">
+                                                <figcaption>우측 LED</figcaption>
+                                            </figure>
+                                            <p>무대 우측의 LED 파 조명입니다. 물론 색상은 아주 다양하게 조합해서 쓸 수 있습니다.</p>
+                                        </li>
+                                        <li>
+                                            <h5>좌측 LED</h5>
+                                            <figure>
+                                                <img src="img/leftLED.jpg" alt="좌측 LED 사진">
+                                                <figcaption>좌측 LED</figcaption>
+                                            </figure>
+                                            <p>무대 좌측 LED 파 조명입니다.</p>
+                                        </li>
+                                        <li>
+                                            <h5>무대 무빙 LED</h5>
+                                            <figure>
+                                                <img src="img/movingLED.jpg" alt="무대 무빙 LED 사진">
+                                                <figcaption>무대 무빙 LED</figcaption>
+                                            </figure>
+                                            <p>무대 무빙 LED 입니다. 갖가지 색과 다양한 움직임을 보여줍니다. <br/>드럼이나 DJ 위 쪽에 설치되어 있습니다.</p>
+                                        </li>
+                                        <li>
+                                            <h5>Effect LED</h5>
+                                            <figure>
+                                                <img src="img/effectLED.jpg" alt="Effect LED 사진">
+                                                <figcaption>Effect LED</figcaption>
+                                            </figure>
+                                            <p>객석 뒤편에서 무대와 객석을 향해 효과를 주는 장치들도 마련되어 있습니다.</p>
+                                        </li>
+                                        <li>
+                                            <h5>레이져</h5>
+                                            <figure>
+                                                <img src="img/reizer.jpg" alt="레이져 사진">
+                                                <img src="img/reizer_enzine.jpg" alt="레이져 송출기 사진">
+                                                <figcaption>레이져</figcaption>
+                                            </figure>
+                                            <p>무대에서 객석을 향하는 레이져 효과입니다. <br/>밑의 사진은 레이져 송출기이고, 머리를 부딪히실까봐 보호대를 부착해놓았습니다.</p>
+                                        </li>
+                                        <li>
+                                            <h5>홀 무빙</h5>
+                                            <figure>
+                                                <img src="img/hall_moving.jpg" alt="홀 무빙 사진">
+                                                <figcaption>홀 무빙</figcaption>
+                                            </figure>
+                                            <p>홀 무빙 2기입니다. 객석의 분위기를 후끈하게 띄워드리죠 ^^<br/>촬영 때는 켜지 않았지만, 실제 공연 때는 객석에서 미러볼도 2기가 돌아가게 됩니다.</p>
+                                        </li>
+                                        <li>
+                                            <h5>포그(Fog) 머신</h5>
+                                            <figure>
+                                                <img src="img/fog_machine.jpg" alt="포그(Fog) 머신 사진">
+                                                <figcaption>포그(Fog) 머신</figcaption>
+                                            </figure>
+                                            <p>모든 조명 효과에 빠질 수 없는 포그(Fog) 머신 ~ !!! 컨트롤룸에서 리모컨으로 작동됩니다.<br/>대용량으로 순식간에 무대를 멋진 연기로 감싸 드리며 조명을 한층 빛내죠.<br/>그 옆으로는 허큘리스 악기 스탠드가 보이는 군요.</p>
+                                        </li>
+                                        <li>
+                                            <h5>조명 컨트롤 세트</h5>
+                                            <figure>
+                                                <img src="img/light_control.jpg" alt="조명 컨트롤 세트 사진">
+                                                <figcaption>조명 컨트롤 세트</figcaption>
+                                            </figure>
+                                            <p>음향 컨트롤 룸과 분리된 조명 컨트롤 세트입니다.<br/>단순히 '껐다 켰다' 가 아닌, 전문적이고 입체적인 조명을 준비하고 있습니다.</p>
+                                            <p>* 이 외에도 싸이키라던지 각종 효과 조명들이 준비되어 있습니다. <br/>멋진 조명 효과와 함께 화려한 주인공이 되시길 바랍니다.</p>
+                                        </li>
+                                        <li>
+                                            <h5>전면 스크린의 실루엣</h5>
+                                            <figure>
+                                                <img src="img/screen_silluet.jpg" alt="전면 스크린의 실루엣 사진">
+                                                <figcaption>전면 스크린의 실루엣</figcaption>
+                                            </figure>
+                                            <p>무대 전체를 덮으며 내려오는 전면 스크린의 실루엣입니다. 영상을 쏴 드리는 곳은 저 스크린과 드럼 쪽 스크린 2개 중의 하나를 고르실 수 있습니다.</p>
+                                        </li>
+                                        <li>
+                                            <h5>레이져 머신</h5>
+                                            <figure>
+                                                <img src="img/screen_raizer_mashine.jpg" alt="레이져 머신 사진">
+                                                <figcaption>레이져 머신</figcaption>
+                                            </figure>
+                                            <p>특별한 문구나 효과를 줄 때 사용하는, 무대 전면 스크린에 송출하는 레이져 머신입니다.</p>
+                                        </li>
+                                        <li>
+                                            <h5>프롬프트 모니터</h5>
+                                            <figure>
+                                                <img src="img/prompt_monitor.jpg" alt="프롬프트 모니터 사진">
+                                                <figcaption>프롬프트 모니터</figcaption>
+                                            </figure>
+                                            <p>무대 중앙 위쪽에 자리잡은 프롬프트 모니터입니다. 가사나 공연 진행 순서등을 띄워드릴 수 있습니다. 물론 객석에서는 전혀 보이지 않습니다. ^^</p>
+                                        </li>
+                                        <li>
+                                            <h5>에어컨</h5>
+                                            <figure>
+                                                <img src="img/aircon1.jpg" alt="에어컨 사진">
+                                                <img src="img/aircom2.jpg" alt="에어컨 사진">
+                                                <figcaption>에어컨</figcaption>
+                                            </figure>
+                                            <p>공연자를 위한 무대 전용 에어컨입니다. 18평형으로 넉넉하고 쾌적하게 공연을 진행하실 수 있습니다.<br/>아래사진은 객석용 인버터 냉난방기입니다. 2014년에 새로 공사하여 쾌적한 공연 관람을 하실 수 있습니다. 넉넉한 용량과 뛰어난 성능을 보여주고 있습니다. </p>
+                                            <p>이 외에도 적은 용량의 음료를 보관하실 냉장 공간, 충분한 환기 시설, 무대로 바로 이어지는 대기실 등 이 있습니다.</p>
+                                        </li>
+                                        <li>
+                                            <h5>안전봉</h5>
+                                            <figure>
+                                                <img src="img/safty_line.jpg" alt="안전봉 사진">
+                                                <figcaption>안전봉</figcaption>
+                                            </figure>
+                                            <p>* 추가 - 지금은 공연장 곳곳에 안전봉이 설치되었습니다 ^^</p>
+                                        </li>
+                                    </ul>
+                                    <p class="prev_btn"><i class="fa fa-angle-left" aria-hidden="true"></i></p>
+                                    <p class="next_btn"><i class="fa fa-angle-right" aria-hidden="true"></i></p>
+                                </article>
+                                <footer class="modal-footer">
+                                    <p class="modal-page"></p>
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                </footer>
+                            </section>
+                        </div>
+                    </div>
+                    <dl id="theGeek_screenproject" class="panel panel-info">
+                        <dt class="panel-heading"><a herf="#">동영상 스크린 프로젝터(무료) / 멋진 등장을 위한 대기실과 무대 전면막<span class="caret"></span></a></dt>
+                        <dd class="panel-body">영상 재생을 위한 스크린 및 프로젝터를 무료로 사용하실 수 있습니다.</dd>
+                        <dd class="panel-body">무대로 바로 이어지는 대기실과 무대 전면막(영상을 송출할 때는 스크린 역할도 합니다)이 있습니다.</dd>
+                        <dd class="panel-body">막 뒤에서 여유 있게 세팅하시고, 더 멋지게 등장하세요.</dd>
+                    </dl>
+                    <dl id="theGeek_ticket" class="panel panel-info">
+                        <dt class="panel-heading"><a herf="#">티켓 제작 (무료 서비스)<span class="caret"></span></a></dt>
+                        <dd class="panel-body">공연하시는 모든 분들께 긱 티켓을 무상으로(150매까지) 제공합니다.</dd>
+                        <dd class="panel-body">상담해 주시면 공연 전이나 공연 당일날 받아보실 수 있습니다.</dd>
+                        <dd class="panel-body">
+                            <button class="more btn" data-toggle="modal" data-target="#ticket">자세히 보기</button>
+                        </dd>
+                    </dl>
+                    <!-- 티켓 모달 -->
+                    <div class="modal fade" id="ticket" tabindex="-1" role="dialog">
+                        <div class="modal-dialog modal-lg">
+                            <section class="modal-content">
+                                <header class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                    <h4 class="modal-title">GEEK LIVE HOUSE TICKET</h4>
+                                </header>
+                                <article class="modal-body">
+                                    <ul class="tickets">
+                                        <li class="viewItem">
+                                            <h5>유의사항</h5>
+                                            <p>* 작업과 수령의 원활한 일정 조정을 위해, 티켓 신청은 공연일로부터 최소 1주일 전에 해주시길 부탁드립니다 *<br/>* 티켓 제작 완료 리플이 달린 후에, 내용 수정을 원하신다 해도, 재제작에 들어가면 불가피하게 요금이 발생하게 됩니다.  티켓 신청을 처음에 하실 때, 확실히 확인된 내용으로 올려주시길 바랍니다 * </p>
+                                        </li>
+                                        <li>
+                                            <h5>티켓 디자인</h5>
+                                            <figure>
+                                                <img src="img/ticket.jpg" alt="티켓 사진">
+                                                <figcaption>티켓</figcaption>
+                                            </figure>
+                                            <p><무료티켓 디자인><br/>- 사이즈 : 175*68mm<br/>- 지   질 : 180g모조지 / 앞면유광코팅<br/>- 후가공 : 절취(미싱) 1줄 / 책갈피용 도무송<br/>- 기본수량 : 150매(무료 제공)<br/>- 추가비용<br/>    * 50매 추가(총200매) : 10,000원<br/>    * 100매 추가(총250매) : 15,000원<br/>    * 150매 추가(총300매) : 20,000원<br/>- 만약 150매까지 필요없으시다면, 필요하신 매수를 말씀 주시면 그대로 출력해드립니다.</p>
+                                        </li>
+                                        <li>
+                                            <h5>긱 무료티켓 신청 방법</h5>
+                                            <figure>
+                                                <img src="img/ticket_form.jpg" alt="티켓 form 사진">
+                                                <figcaption>티켓 form</figcaption>
+                                            </figure>
+                                            <p>!! 앞면의 스피커이미지부분은 딱지처럼 떼어서 책갈피로 사용하실 수 있게 후가공처리가 되어 있습니다.<br/>1. 본 게시판(무료티켓서비스)에 새로운 게시글로 신청<br/>2. 신청시 작성해주실 사항 : '내용'부분에 원하시는 내용을 적어주세요. <br/>공연명, 출연진, 일시, 가격 등을 기재하시면 밑의 내용처럼 기본 텍스트로 '내용' 박스 안에 맞춰 작성해드립니다. (상단 이미지 참조) <br/>* 이미지 파일이나 별도의 작업 파일은 받고 있지 않습니다.<br/>* 1도 단색 (흑백) 으로 출력됩니다.<br/>3. 사선 절취부분은 공연 당일에 입장 번호 등을 수기로 기재하실 수 있습니다(손으로 뜯으실 수 있도록 절취가공처리가 되어 있습니다).<br/>4. 신청 시 제목에 반드시 대관하신 날짜를 정확히 기입해 주시기 바랍니다.<br/>5. 티켓에는 기본적으로 별도의 넘버링이 되어 있지 않습니다. 절취선 안쪽에 직접 수기로 작업해주시면 됩니다.</p>
+                                        </li>
+                                        <li>
+                                            <h5>티켓 외 인쇄물 신청 방법</h5>
+                                            <p>* 티켓뿐 아니라 공연에 필요한 인쇄물이 필요하시면 (특수 티켓 제작, 포스터 등), 긱라이브하우스 제휴사인 티피디자인 을 통해 저렴하게 제작하실 수 있습니다.<br/>02-1599-2344 혹은 <a href="http://www.ti2po.com">www.ti2po.com</a> 로 연락하시면 됩니다.</p>
+                                        </li>
+                                        <li>
+                                            <h5>티켓 FAQ</h5>
+                                            <p>Q1. 티켓 추가로 제작할 수 있나요?<br/>=> 티켓은 기본적으로 150매 무료로 제공됩니다.<br/>추가로 티켓 필요하실경우 유료로 제작해 드립니다.<br/>50매추가 : 10,000원 / 100매추가 : 15,000원 / 150매 추가 : 20,000원<br/>150매까지 필요없으시다면, 필요한 수량을 적어주시면 그만큼 출력해드립니다.<br/>Q2. 티켓제작 소요시간은 얼마나 걸릴까요?<br/>제작은 일반적으로 2~3일 내에 완성됩니다(다만 날짜가 틀리거나, 기타 부정확한 내용이 있을시, 추가로 재확인 후 제작을 하기에 시일이 더 걸릴 수 있습니다). <br/>Q3. 완성된 티켓 수령은 어떻게 하나요?<br/>티켓은 일반적으로 특별히 말씀 없으시면, 공연 당일날 현장 수령을 기본으로 하고 있습니다.<br/>만약 그 전에 방문 수령하고 싶으시면, 작업 현황 확인후에(신청하신 글에 리플로 달립니다), 먼저 연락주시고 긱라이브하우스 공연장 으로 오시면 직접 수령하실 수 있습니다(위치는 하단의 약도 참조).<br/>* 다만, 공연장 휴무일에는 수령이 어려울 수 있으니, 반드시 며칠 전에 연락 주셔야 합니다 *<br/>Q4. 완성된 티켓은 택배로 받을 수 있나요?<br/>신청하신 글에 꼬리말(혹은 비밀댓글)로 받으실분 상세 주소, 연락처(핸드폰 번호), 수령자이름을 적어주시면 택배로 발송해 드립니다.<br/>우체국 택배이며, 택배비는 4,000원 가량의 착불이에요 ^^<br/>(직접 수령하시는 편이 이익입니다)<br/>Q5. 포스터, 공연팜플렛 만들수 있나요?<br/>티켓뿐 아니라 공연에 필요한 인쇄물 필요하시면 긱라이브하우스 제휴사인 티피디자인을 통해 저렴하게 제작하실 수 있습니다.<br/>02-1599-2344 혹은 <a href="http://www.ti2po.com">www.ti2po.com</a> 로 연락하시면 됩니다</p>
+                                        </li>
+                                    </ul>
+                                    <p class="prev_btn"><i class="fa fa-angle-left" aria-hidden="true"></i></p>
+                                    <p class="next_btn"><i class="fa fa-angle-right" aria-hidden="true"></i></p>
+                                </article>
+                                <footer class="modal-footer">
+                                    <p class="modal-page"></p>
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                </footer>
+                            </section>
+                        </div>
+                    </div>
+                    <dl id="theGeek_monitor" class="panel panel-info">
+                        <dt class="panel-heading"><a herf="#">무대 전면에 프롬프트 모니터 설치<span class="caret"></span></a></dt>
+                        <dd class="panel-body">무대 전면 상단에 프롬프트(자막기)가 설치되어 있어, 공연중 Cue-sheet 및 가사를 확인하실 수 있습니다(직접 준비하시면, 저희쪽 노트북으로 옮겨 손쉽게 조작이 가능하십니다).</dd>
+                        <dd class="panel-body">
+                            <button class="more btn" data-toggle="modal" data-target="#monitor">자세히 보기</button>
+                        </dd>
+                    </dl>
+                    <!-- 프롬프트 모니터 모달 -->
+                    <div class="modal fade" id="monitor" tabindex="-1" role="dialog">
+                        <div class="modal-dialog modal-lg">
+                            <section class="modal-content">
+                                <header class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                    <h4 class="modal-title">GEEK LICE HOUSE Prompt monitor</h4>
+                                </header>
+                                <article class="modal-body">
+                                    <h5>프롬트프 모니터</h5>
+                                    <figure>
+                                        <img src="img/horz-vert.jpg" alt="프롬트프 모니터 사진">
+                                        <figcaption>프롬트프 모니터</figcaption>
+                                    </figure>
+                                    <p>대관자분께서, 저희 쪽에서 대여해드리는 노트북을 통하여, 몇 곡이건 직접 컨트롤하며 무대에 전송해드릴 수 있습니다. <br/>물론 여전히 객석에서는 전혀 보이지 않으며, 더욱 편안한 공연이 되실 수 있게 되었습니다. <br/>항상 여러분을 생각하는 긱 라이브하우스가 되겠습니다. 감사합니다.<br/>* 가사는 메모장, 파워포인트 등으로 작업해서 USB 에 담아오시면 됩니다(보안과 사용상의 문제로 네트워크가 지원되지 않습니다).<br/>* 대여해드리는 노트북은 부팅시 자동 복구가 되도록 세팅 되어 있습니다(파일 관리 및 보안에 신경 쓰시지 않아도 됩니다).<br/>* 노트북의 고장이나 각종 이상시 제공되지 않을 수 있습니다. <br/>* 대여해드리는 노트북은 각별히 주의해서 사용해주시길 바라며, 음료를 쏟거나 사용자의 부주의로 인한 고장 발생이나 파손시 책임이 발생할 수 있습니다.</p>
+                                </article>
+                                <footer class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                </footer>
+                            </section>
+                        </div>
+                    </div>
+                    <dl id="theGeek_afreeca" class="panel panel-info">
+                        <dt class="panel-heading"><a herf="#">아프리카 TV 생중계 서비스<span class="caret"></span></a></dt>
+                        <dd class="panel-body">공연에 못 오시는 분들이 있거나, 공연을 알리고 싶으시며 실황중계로 공유를 원하시는 등등의 경우 제공됩니다.</dd>
+                        <dd class="panel-body">
+                            <button class="more btn" data-toggle="modal" data-target="#afreeca">자세히 보기</button>
+                        </dd>
+                    </dl>
+                    <!-- 아프리카TV 모달 -->
+                    <div class="modal fade" id="afreeca" tabindex="-1" role="dialog">
+                        <div class="modal-dialog modal-lg">
+                            <section class="modal-content">
+                                <header class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                    <h4 class="modal-title">GEEK LIVE HOUSE Afreeca TV</h4>
+                                </header>
+                                <article class="modal-body">
+                                    <h5>아프리카 생중계 서비스</h5>
+                                    <figure>
+                                        <img src="img/afreecatv.jpg" alt="afreecatv 사진">
+                                        <figcaption>afreecatv</figcaption>
+                                    </figure>
+                                    <p>12년 전통의 신촌 대표 공연장 '긱 라이브 하우스' 에서, 여러분들의 대관 공연을 '아프리카 TV' 로 생중계해드립니다 ~ !!!<br/>신청하시고자 하는 분들은 공연 당일에 말씀 주시고, 원하시는 비밀번호를 설정해서 원하는 분들만 보실 수도 있습니다.<br/>기본적으로 긱 라이브 하우스의 아프리카 방송방 주소는 http://afree.ca/geeklive 이며(로그인 X), 혹은 아프리카 검색창에서 'geeklive' 를 검색하셔도 나옵니다.<br/>중계를 보시겠다면 해당 공연날짜와 시간에 접속하시면 되겠죠? ^^<br/>이제 공연장에 못 오시는 분들이나, 공연장에 오신 분들끼리도 이런 저런 말씀 나누실 수 있는 자리가 마련되었으니, 함께 하는 즐거운 공연이 되었으면 좋겠습니다.<br/>* 대관 공연의 중계방 개설시, 긱 라이브하우스는 개설과 관리만 해 드릴뿐, 대화나 총 진행에 관여하지 않습니다.<br/>* 화면은 720*576 해상도에 1000k 로 무대 고정 구도이며, 소리는 192/48khz로 현장 관객소리까지 같이 들어옵니다.<br/>* 공연 당일에 기계적인 사정이 생길 시,  본 서비스는 제공되지 않을 수도 있습니다.</p>
+                                </article>
+                                <footer class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                </footer>
+                            </section>
+                        </div>
+                    </div>
+                    <dl id="theGeek_recording" class="panel panel-info">
+                        <dt class="panel-heading"><a herf="#">무료 무대 영상 녹화 서비스 / 무료 관객 영상 녹화 서비스<span class="caret"></span></a></dt>
+                        <dd class="panel-body">소중한 공연을 녹화하여, 공연 당일 공 DVD 에 파일로 구워서 직접 드립니다.</dd>
+                        <dd class="panel-body">신청에 따라, 생생한 관객분들의 열띤 호응을 편집 후 전송해드립니다.</dd>
+                        <dd class="panel-body">
+                            <button class="more btn" data-toggle="modal" data-target="#recording">자세히 보기</button>
+                        </dd>
+                    </dl>
+                    <!-- 영상 녹화 모달 -->
+                    <div class="modal fade" id="recording" tabindex="-1" role="dialog">
+                        <div class="modal-dialog modal-lg">
+                            <section class="modal-content">
+                                <header class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                    <h4 class="modal-title">GEEK LIVE HOUSE Recording</h4>
+                                </header>
+                                <article class="modal-body">
+                                    <h5>무대/관객 영상 녹화</h5>
+                                    <figure>
+                                        <img src="img/stage_moving.jpg" alt="stage_moving 사진">
+                                        <figcaption>stage_moving</figcaption>
+                                    </figure>
+                                    <p>긱 라이브 하우스는, 대관 공연시에 무료로 영상을 촬영해서 제공해드리고 있습니다.<br/>(단, 레코더의 고장이나 각종 기계 문제시 제공 못 해 드리는 경우도 있습니다)<br/>일반적으로 공연 종료 후에 그 공연 대표자분께 공 DVD 에 파일로 구워서 드리는 방식이며, 공 DVD 에 굽기 위한 용량문제로 해상도는 640으로 고정되기 때문에, HD급 화질은 아니지만 충분한 공연 모니터링과 추억 보존용에 많은 도움이 되고 있습니다.<br/>공연 대표자분이 공연자분들께 배포를 하시는게 일반적이지만, 간혹 전달을 못 받으시거나 여러 사정이 있어서 재요청을 하시는 분들이 종종 있어서 해당 신청 게시판을 만들게 되었습니다.<br/>* 아직 진행하지 않은 공연의 경우, 굳이 미리 신청을 하시지 않으셔도, 어차피 그날 대표자분께 DVD를 전해드리니 그쪽으로 전달 받으시는게 더 빠릅니다 * <br/>통상 공연일로부터 1달여의 영상까지 보존하고 있습니다.<br/>그 이전의 공연은 따로 문의 주셔야 합니다. <br/>신청 방법은 간단합니다.<br/>이 곳에 비밀댓글(주인만 보기) 로(개인정보 보호차원), 날짜, 받으실 이메일 주소와 문자나 연락 가능한 전화번호를 달아주시면 됩니다. <br/>확인 후 전송 드리고, 마찬가지로 비밀답글 달아드리거나 따로 연락 드리겠습니다.<br/>단, 모든 공연에 모든 공연자나 관련자분들이 신청을 하시면 저희도 업무를 감당할 수 없사오니, 1공연당 5회의 추가전송으로 제한하게 되는 점, 넓게 이해 바랍니다. <br/>- 기기 고장 및 각종 문제시 제공되지 않거나, 영상이 짤릴 수 있습니다.</p>
+								</article>
+                                <footer class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                </footer>
+                            </section>
+                        </div>
+                    </div>
+                    <dl id="theGeek_livePost" class="panel panel-info">
+                        <dt class="panel-heading"><a herf="#">'긱 라이브포스트' 서비스<span class="caret"></span></a></dt>
+                        <dd class="panel-body">공연 전에는 공연 내용과 공연장 위치 안내를, 공연 중에는 온라인 방명록처럼 실시간으로 사진도 업로드하며 함께 즐기는 장소로, 공연 후에는 언제든 돌아보실 수 있는 추억의 장으로 '무료 제공'해 드립니다.</dd>
+                        <dd class="panel-body">
+                            <button class="more btn" data-toggle="modal" data-target="#livepost">자세히 보기</button>
+                        </dd>
+                    </dl>
+                    <!-- 라이브 포스트 모달 -->
+                    <div class="modal fade" id="livepost" tabindex="-1" role="dialog">
+                        <div class="modal-dialog modal-lg">
+                            <section class="modal-content">
+                                <header class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                    <h4 class="modal-title">GEEK Livepost</h4>
+                                </header>
+                                <article class="modal-body">
+                                    <ul class="liveposts">
+                                        <li class="viewItem">
+                                            <h5>긱 라이브포스트 소개</h5>
+                                            <p>공연 전 - 공연 내용 및 약도를 손님들에게 손쉽게 안내 <br/>공연 중 - 사진도 달며 실시간으로 방명록 기능<br/>공연 후 - 언제든 찾아보실 수 있는 추억의 장<br/>이제, 단순히 공연을 보고 끝내는 것이 아니라, 실시간으로 대관자나 공연자분들과 손님들이 소통할 수 있는 장이 마련된 것입니다. <br/>또한 모든 내용은 '무료' 이며, 별도의 회원가입이나 로그인 없이, 기존의 'Facebook' 계정만 있다면 그 누구나 손쉽게 이용하실 수 있습니다.</p>
+                                        </li>
+                                        <li>
+                                            <h5>긱 라이브포스트 방법과 순서</h5>
+		                                    <figure>
+		                                        <img src="img/livepost_ex.jpg" alt="긱 라이브포스트 사진">
+		                                        <figcaption>긱 라이브포스트</figcaption>
+		                                    </figure>
+                                            <p>1. 이 카페의 '무료티켓서비스' 코너처럼, 이 곳 '긱 라이브포스트 서비스' 에 신청을 하십니다(신청하실 내용은, 아래의 내용을 긁어서 작성해주시면 됩니다).<br/>--------------------------------------------------------------<br/>* 공연명 : <br/>* 간단한 한 줄 소개 : <br/>* 공연일자와 시간 : <br/>* 티켓 가격(티켓을 판매할 시) :<br/>* 안내 받으실 핸드폰 번호 : <br/>--------------------------------------------------------------<br/>@ 참고 : 한 줄 소개는 말 그대로 한 줄 소개입니다. 티켓처럼 라인업을 모두 써놓는다던지 하기 힘듭니다. 또한 핸드폰 번호를 따로 기재하시지 않는다면, 해당 날짜의 대표자분께 안내 문자가 갑니다. <br/>2. 그 후에, 저희 기본 폼에 신청하신 내용으로 제작이 들어가게 됩니다(상단 이미지 참조 - 많은 내용은 들어갈 수 없습니다).<br/>3. 저희는 그 이미지를 긱 공식 페이스북( https://www.facebook.com/geeklivehouse )에 업로드합니다.<br/>4. 해당 포스트의 주소를, 위에 작성하신 핸드폰 번호로 안내 받으십니다.<br/>( https://www.facebook.com/geeklivehouse/posts/714116562016942    <= 이런 식의 주소가 됩니다).<br/>5. 이제 손님들에게 공연을 홍보하거나 위치를 설명하실 때, 위의 주소를 문자나 카톡 등으로 손쉽게 안내하시거나, 해당 포스트를 자신의 페이스북 계정에 '공유'로 널리 퍼뜨릴 수 있습니다.  <br/>6. 공연 중에는 실시간 방명록이나 대화, 사진 업로드 등으로 함께 하는 공연이 될 수 있습니다. 또한, 그 내용은 그대로 저장되어 공연 후에도 언제든지 다시 즐거운 추억으로 돌아보실 수 있습니다.</p>
+                                        </li>
+                                    </ul>
+                                    <p class="prev_btn"><i class="fa fa-angle-left" aria-hidden="true"></i></p>
+                                    <p class="next_btn"><i class="fa fa-angle-right" aria-hidden="true"></i></p>
+                                </article>
+                                <footer class="modal-footer">
+                                    <p class="modal-page"></p>
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                </footer>
+                            </section>
+                        </div>
+                    </div>
+                    <dl id="theGeek_salong" class="panel panel-info">
+                        <dt class="panel-heading"><a herf="#">저렴한 제휴 뒷풀이 장소 제공<span class="caret"></span></a></dt>
+                        <dd class="panel-body">저렴한 제휴 뒷풀이 장소와 메뉴를 제안 드립니다.</dd>
+                        <dd class="panel-body">
+                            <button class="more btn" data-toggle="modal" data-target="#salong">자세히 보기</button>
+                        </dd>
+                    </dl>
+                    <!-- 제휴 뒷풀이 모달 -->
+                    <div class="modal fade" id="salong" tabindex="-1" role="dialog">
+                        <div class="modal-dialog modal-lg">
+                            <section class="modal-content">
+                                <header class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                    <h4 class="modal-title">Salon Nomard</h4>
+                                </header>
+                                <article class="modal-body">
+                                    <ul class="liveposts">
+                                        <li class="viewItem">
+                                            <h5>살롱노마드 - 공지사항</h5>
+                                            <p>- 최소 20만원 이상을 드셔 주셔야 전세 뒷풀이가 가능하십니다 -<br/>- 어떠한 외부 음식(주류 포함)도 반입이 안 되십니다 - <br/>- 무대 사용은, 매장과 상의 하에 진행하시면 됩니다 -</p>
+                                        </li>
+                                        <li>
+                                            <h5>살롱노마드 소개</h5>
+		                                    <figure>
+		                                        <img src="img/salong.jpg" alt="살롱노마드 사진">
+		                                        <figcaption>살롱노마드</figcaption>
+		                                    </figure>
+                                            <p>멋진 공연 이후에 즐겁고 분위기 있는 뒷풀이 장소로, 이번에 저희와 제휴한 '살롱노마드' 를 추천해드립니다.<br/>40명 정도가 수용 가능하시고, 좋은 음악과 유니크한 분위기,거기에 간단한 연주가 가능하신 음악 무대까지 있으며 저렴한 가격과 함께 공연장과 매우 가까운 이점(도보 5분 가량)까지 갖추고 있습니다.</p>
+                                        </li>
+                                        <li>
+                                            <h5>살롱노마드 예약 안내와 약도, 단체 메뉴</h5>
+		                                    <figure>
+		                                        <img src="img/salong1.jpg" alt="살롱노마드 사진">
+		                                        <figcaption>살롱노마드</figcaption>
+		                                    </figure>
+                                            <p>(약도를 설명드리면, 신촌역 8번 출구에서 '긱 라이브하우스' 쪽으로 올라오시다 보면 좌측에 있는 농협 안쪽 골목까지 쭉 들어가시면 위치해 있습니다).</p>
+                                        </li>
+                                        <li>
+                                            <h5>살롱노마드 메뉴</h5>
+		                                    <figure>
+		                                        <img src="img/salong2.jpg" alt="살롱노마드 사진">
+		                                        <figcaption>살롱노마드</figcaption>
+		                                    </figure>
+                                            <p>자체적으로 팔고 계시는 메뉴도 참고 삼아 보시면 도움이 될 것 같네요. ^^</p>
+                                            <p>예약시, '긱 라이브 하우스' 공연 후 뒷풀이 예약이라고 말씀 주시면 됩니다.<br/>그리고, '살롱노마드' 는 저희와 제휴한 업체입니다. 즉, 저희 측에서 운영하는 곳이 아니기 때문에 '살롱노마드' 예약 등 관련된 모든 문의는 02-322-2615 / 010-3229-0615 로 문의 주시면 됩니다 ^^</p>
+                                        </li>
+                                    </ul>
+                                    <p class="prev_btn"><i class="fa fa-angle-left" aria-hidden="true"></i></p>
+                                    <p class="next_btn"><i class="fa fa-angle-right" aria-hidden="true"></i></p>
+                                </article>
+                                <footer class="modal-footer">
+                                    <p class="modal-page"></p>
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                </footer>
+                            </section>
+                        </div>
+                    </div>
+                </article>
+                <!-- 긱 라이브 하우스 특징 끝 -->
+                <!-- 긱 라이브 하우스 대관안내 시작 -->
+                <article id="rent">
+                    <h3>대관안내</h3>
+                    <div id="infoRent" class="table-responsive col-lg-8 col-md-12">
+                        <table class="table table-hover">
+                            <thead>
+                                <tr>
+                                    <td></td>
+                                    <th>평일</th>
+                                    <th>금요일</th>
+                                    <th>토요일</th>
+                                    <th>일요일 및 공휴일</th>
+                                </tr>
+                            </thead>
+                            <tfoot>
+                                <tr>
+                                    <td colspan="5">
+                                        <ul>
+                                            <li>종일대관시 공연장 3시에 오픈되어 공연 1시간 전까지 리허설 진행됩니다.</li>
+                                            <li>종일대관시 무료티켓을 제공해드립니다. 자세한 제작방법은 무료티켓 메뉴에 설명되어 있습니다. <span class="tfoot_block">보다 자세한 문의는 전화상담으로 진행됩니다.</span></li>
+                                            <li>공연의 경우 파트타임대관은 불가합니다. (공연을 위한 최소한의 리허설과 준비시간을 고려하여 공연 파트타임 대관은 하지 않습니다.) <span class="tfoot_block">이벤트, 동호회, 각종 오프모임 등이 파트타임대관에 적절합니다.</span></li>
+                                            <li>대관료에는 음향, 조명 엔지니어 및 각종 시설 사용료가 포함되어 있습니다.<span class="tfoot_block">(추가 이용사항 제외)</span></li>
+                                            <li>공연 러닝타임은 3시간입니다. 초과 시 30분당 5만원의 대관료가 추가 적용됩니다.</li>
+                                            <li>대관료에 크래쉬 심벌과 건반은 포하되어 있지 않습니다.<span class="tfoot_block">(추가 이용사항 참고)</span></li>
+                                            <li>대관 예정일로부터 1개월 내 취소시 계약금은 환불되지 않습니다. <span class="tfoot_block">2주전 취소는 대관료의 50%를, 1주전 취소는 대관료의 80%를 위약금 청구가 발생합니다.</span></li>
+                                            <li>해당 공연의 Cue-sheet를 작성해 오시면 보다 원활한 공연진행을 하실 수 있습니다.</li>
+                                            <li>음향 및 조명 장비 리스트와 보유 악기 리스트 등은 대관안내 메뉴에서 환인 가능합니다.</li>
+                                            <li>공연 홍보자료를 geeklive@naver.com으로 보내주시면 카페 및 홈페이지에 노출 가능하오니 문의 바랍니다.</li>
+                                        </ul>
+                                        <a class="rent_more" href="#">
+                                            <svg width="150" height="25">
+                                                <path d="M 0,0 L 25,25 L 125,25 L 150,0" />
+                                                <text x="60" y="17">펴기</text>
+                                            </svg>
+                                        </a>
+                                    </td>
+                                </tr>
+                            </tfoot>
+                            <tbody>
+                                <tr>
+                                    <th>종일대관<strong>(15~22시)</strong></th>
+                                    <td>320,000</td>
+                                    <td>450,000</td>
+                                    <td>600,000</td>
+                                    <td>480,000</td>
+                                </tr>
+                                <tr>
+                                    <th>파트타임대관<strong>(15시 이전)</strong></th>
+                                    <td>70,000/H</td>
+                                    <td>80,000/H</td>
+                                    <td>100,000/H</td>
+                                    <td>100,000/H</td>
+                                </tr>
+                                <tr>
+                                    <th>심야대관<strong>(23~4시)</strong></th>
+                                    <td colspan="4">500,000</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="col-lg-4 col-md-12">
+                        <dl class="col-lg-12 col-sm-6 col-xs-12">
+                            <dt>추가이용사항</dt>
+                            <dd>턴테이블(무료)</dd>
+                            <dd>Crash Cymbal
+                                <ul>
+                                    <li>Bosphous Gold Series 16” 18” : 대여료 장당 15,000원</li>
+                                    <li>HI-Hat Cymbal, Ride Cymbal, China Cymbal : 기본제공</li>
+                                </ul>
+                            </dd>
+                            <dd>Keybord
+                                <ul>
+                                    <li>KORG Triton pro 76건반 : 대여료 20,000원</li>
+                                    <li>YAMAHA MOX8 8건반 (해머 터치) : 대여료 30,000원</li>
+                                </ul>
+                            </dd>
+                            <dd>(심벌과 건반은 자체적으로 가지고 오셔도 무방합니다.)</dd>
+                        </dl>
+                        <dl class="col-lg-12 col-sm-6 col-xs-12">
+                            <dt>기타 장비 이용사항</dt>
+                            <dd>
+                                <ol>
+                                    <li>
+                                        <dl class="panel panel-info">
+                                            <dt class="panel-heading">무대 / 관객 영상 녹화 시스템 (무료)<span class="caret"></span></dt>
+                                            <dd class="panel-body">공연 실황 무대 영상을 시간으로 녹화, 저장하여 공연 후 퇴장하시기전까지 DVD에 저장하여 드리고 있습니다.</dd>
+                                            <dd class="panel-body">또한 관객 영상은 편집 후 3일 이내로 e-mail로 전송해드리고 있습니다.</dd>
+                                        </dl>
+                                    </li>
+                                    <li>
+                                        <dl class="panel panel-info">
+                                            <dt class="panel-heading">무선 전동스크린<span class="caret"></span></dt>
+                                            <dd class="panel-body">종일 대관의 경우 빔 프로젝터 사용은 무료입니다.</dd>
+                                            <dd class="panel-body">영상물을 준비해 오셔서 (DVD, 컴퓨터파일, USB) 사용 하실 수 있습니다.</dd>
+                                            <dd class="panel-body">(직접 영상 제작을 하지 않으셨다해도 관객 입장시 등에 뮤직비디오 상영 가능합니다)</dd>
+                                        </dl>
+                                    </li>
+                                    <li>
+                                        <dl class="panel panel-info">
+                                            <dt class="panel-heading">무대 전면에 프롬프트 (자막기) 설치<span class="caret"></span></dt>
+                                            <dd class="panel-body">메모장 혹은 파워포인트 작업해 오시면, 몇곡이던지 직접 저희쪽 노트북으로 옮겨 조작이 가능하십니다.</dd>
+                                            <dd class="panel-body">객석 쪽에서는 보이지 않으며, 공연 중에 무대 위에서 가사 및 특이사항, 곡 리스트 등을 참고하실 수 있습니다.</dd>
+                                        </dl>
+                                    </li>
+                                    <li>
+                                        <dl class="panel panel-info">
+                                            <dt class="panel-heading">멋진 등장을 위한 무대 전면 막 (무료)</dt>
+                                            <dd></dd>
+                                        </dl>
+                                    </li>
+                                </ol>
+                            </dd>
+                            <dd>
+                                <button class="more btn" data-toggle="modal" data-target="#reserve">대관 예약하기</button>
+                            </dd>
+                        </dl>
+                    </div>
+                    <!-- 제휴 뒷풀이 모달 -->
+                    <div class="modal fade" id="reserve" tabindex="-1" role="dialog">
+                        <div class="modal-dialog modal-lg">
+                            <section class="modal-content">
+                                <header class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                    <h4 class="modal-title">대관예약하기</h4>
+                                </header>
+                                <article class="modal-body">
+                                    <h5>대관 예약 순서</h5>
+                                    <p>전화나 직접 방문 후 대관하시고자 하는 날짜를 문의하세요.<br/>대관일 확정(가예약) 후 3일 내 선금(대관료의 30%)을 납부라시면 모든 예약은 완료가 됩니다.<br/>선금은 긱라이브하우스를 직접 방문하셔서 납부하시거나 아래 계좌로 입금하시면 됩니다.<br/>입금을 하실경우, 입금후 전화(02-3141-5292)로 입금자명을 확인해 주시기 바랍니다.</p>
+                                    <p>긱라이브하우스 입금계좌<br/>신한은행 110-142-864175<br/>예금주 / Geek 라이브 하우스 (양원식)</p>
+                                </article>
+                                <footer class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                </footer>
+                            </section>
+                        </div>
+                    </div>
+                    <article id="noticeRent">
+                        <h4>추가 공지 사항</h4>
+                        <ul>
+                            <li>대관 예약시, 밴드인지 힘합인지(힙합이라면 DJ가 따로 오시는지) 미리 말씀주시면 진행에 많은 도움이 됩니다.(드럼 설치와 해체 때문에 DJ 여부가 매우 중요합니다.)</li>
+                            <li>일반적으로 공연 2~3일 전에 세부사항 확인전화를 드리고 있습니다. 자세한 내용과 문의는 그때 해주셔도 됩니다.</li>
+                            <li>음료는 유이병은 안 되고, 캔과 PET만 가능하십니다. 바닥이 타일이라, 안전사고 및 공병 처리에 문제가 많습니다.</li>
+                            <li>더불어 음악 공연장인 만큼, 냉장 시설이 협소하오니 너무 많은 양은 보관이 힘드시며, 안전사고와 악기 보호를 위해 별도의 인력이 각별히 관리 및 정리해주셔야 합니다.</li>
+                            <li>물을 뿌리거나 마이크 파손, 악기 및 주변기기 고장 등에 관한 손해 배상이 있을 수 있습니다.</li>
+                            <li>외부 음식물 (단체 도시락 등 식사류)은 반입이 안 되십니다.</li>
+                            <li>공연 러닝타임 3시간 이후 추가요금(30분당 5만원)은, 3시간이 초과된 시점부터 즉시 발생합니다.(이는 10시 이후도 마찬가지입니다.)</li>
+                            <li>주차는 유료로 1대 가량 가능하오나, 반드시 당일 공연장 측에 문의해 주셔야 합니다.</li>
+                            <li>리허설은 원칙적으로 오후 3시부터 공연 시작 한 시간 전까지입니다. 이 한 시간 사이에 관객분들도 들어오시고, 공연장 스텝들의 식사시간 및 무대 정비 시간이 포함되어 있습니다.</li>
+                            <li>다만, 대관 시간 자체의 변동이나 특수한 사정이 있을 경우, 반드시 현장측(010-3325-9480)과 한번 더 상세한 사전 조율을 해 주시길 바랍니다.</li>
+                        </ul>
+                    </article>
+                </article>
+                <!-- 긱 라이브 하우스 대관 안내 끝 -->
+                <!-- 긱 라이브 하우스 오디션 안내 시작 -->
+                <article id="audition" class="clearfix">
+                    <h3>오디션 안내</h3>
+                    <section>
+                        <p>긱라이브하우스(Geek Livehouse)는 라이브클럽문화의 발전, 그리고 나아가 우리나라 음악의 발전을 도모하며 많은 사람들이 함께 즐길 수 있는 문화공간으로써의 역할﻿을 다하기 위해서 끊임 없는 노력을 기울이고 있습니다.</p>
+                        <p>12년동안 신촌 및 홍대 음악 공연의 산 증인으로써 ﻿그 역할에 최선을 다하고 있는 긱라이브하우스,
+                            <br/>저희 긱라이브하우스에서 항시 열리고 있는 기획공연(소리滿Geek, Geek Special Live 등..)을 지속적으로 함께 만들어 나갈 음악인들을 모집합니다.</p>
+                        <p>자체 비공개 오디션 후 내부 회의와 여러 컨셉 조정을 거쳐 각종 기획 공연을 비롯한 다양한 기회를 드리고 있습니다.</p>
+                        <p>다채롭고 실력 있는 음악인들이, 세상에 자신들의 음악세계를 당당히 펼쳐가는데에 힘을 보태고 싶으며,음악에 대한 열정과 사랑이 있으시다면 저희 긱라이브하우스와 함께 그 열정과 사랑을 더욱 키워 나가실 수 있는 시간이 되었으면 하는 바람입니다.</p>
+                    </section>
+                    <dl id="howtoaudition">
+                        <dt>응모방법</dt>
+                        <dd>우측 상단의 첨부파일( 오디션 신청서. doc 파일입니다)을 다운받아 작성 후, 메일( geeklive@naver.com )로 보내주시면 확인 후 연락 드립니다.</dd>
+                        <dd>오디션 신청서 외에, 밴드나 팀에 관해 소상히 알 수 있도록 동영상, 음원과 영상(링크) 등 각종 도움이 될만한 자료들을 함께 보내주시면 큰 도움이 됩니다.</dd>
+                    </dl>
+                    <dl>
+                        <dt>일시 및 시간 (협의)</dt>
+                        <dd>평일: (Time#1) 오후2시~2시40분<span>(Time#2)오후 10시~10시40분</span></dd>
+                        <dd>토,일: 오후 2시~2시40분</dd>
+                    </dl>
+                    <dl>
+                        <dt>장 소</dt>
+                        <dd>신촌 Geek Live house (위치는 본 블로그의 약도 참조)</dd>
+                    </dl>
+                    <dl>
+                        <dt>장 르</dt>
+                        <dd>장르 관계 없습니다.</dd>
+                        <dd>다만 현재로써는 밴드 위주로 모집을 하는 중입니다.</dd>
+                    </dl>
+                    <dl>
+                        <dt>오디션곡</dt>
+                        <dd>자작곡 1곡, 카피곡 1곡 (3곡을 준비하여 자작곡 2곡도 무방하지만, 카피곡 1곡은 필수입니다)</dd>
+                    </dl>
+                    <dl>
+                        <dt>문 의</dt>
+                        <dd>http://cafe.daum.net/geeklivehouse (대관 및 오디션 문의 게시판)</dd>
+                    </dl>
+                    <dl>
+                        <dt>문의전화</dt>
+                        <dd>02) 3141 - 5292</dd>
+                    </dl>
+                </article>
+                <!-- 긱 라이브 하우스 오디션 안내 끝 -->
+            </section>
+            <!-- 대관 & 인터뷰 컨텐츠 끝 -->
+            <!-- 대관 & 인터뷰 푸터 시작 -->
+            <footer>
+                <div class="snsIco">
+                    <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                    <i class="fa fa-youtube" aria-hidden="true"></i>
+                </div>
+                <div class="footerCopy">
+                    <address>TEL. 02-3141-5292 &nbsp;서울시 마포구 동교동 185-10 국일빌딩 B1 (신촌로 10길 7)</address>
+                    <p>&copy; 2016. GEEK LIVE HOUSE All right reserved.</p>
+                </div>
+            </footer>
+        </section>
+        <!-- 대관 & 인터뷰 푸터 끝 -->
+        <!-- 대관 & 인터뷰 끝 -->
+    </div>
+    <div id="forPerform" class="forPerform imageBtn col-xs-11">
+    	<h2 class="btn_title_hidden">공연정보 & 갤러리<span class="blockspan"><i class="fa fa-angle-double-right" aria-hidden="true"></i></span></h2>
+        <!-- 공연정보 & 갤러리 시작 -->
+        <section id="perform">
+            <!-- 공연정보 & 갤러리 헤더 시작 -->
+            <header class="clearfix">
+                <h1><a href="#intro"><img src="img/logo.png" alt="긱라이브하우스 로고"></a></h1>
+                <nav class="clearfix">
+                    <h2 class="hidden">긱라이브하우스 메뉴</h2>
+                    <span class="menuIcon"><i class="fa fa-bars" aria-hidden="true"></i></span>
+                </nav>
+            </header>
+            <!-- 공연정보 & 갤러리 헤더 끝 -->
+            <!-- 공연정보 & 갤러리 스크롤 네비게이션 시작 -->
+            <aside class="navbar-scroll">
+                <h2 class="hidden">공연정보 & 갤러리 스크롤 네비게이션</h2>
+                <ul class="nav">
+                    <li><a href="#soundgeek">소리滿Geek</a></li>
+                    <li><a href="#planGall">기획공연</a></li>
+                    <li><a href="#rentGall">대관공연</a></li>
+                </ul>
+            </aside>
+            <!-- 공연정보 & 갤러리 스크롤 네비게이션 끝 -->
+            <!-- 공연정보 & 갤러리 컨텐츠 시작 -->
+            <section>
+                <h2 class="hidden">공연정보 & 갤러리 컨텐츠</h2>
+                <!-- 소리만 긱 시작 -->
+                <section id="soundgeek" class="clearfix">
+                    <h3>소리滿Geek</h3>
+                    <article>
+                        <h4>'소리滿GEEK(소리만 긱)' 이란?</h4>
+                        <p>'소리滿GEEK' 은, 신촌 GEEK live house 에서 자체적으로 진행하는 기획공연으로써, '소리' + '滿(가득찰 만)' + 'GEEK' 의 합성어입니다.</p>
+                        <p>그 발음대로 음악과 멋진 공연이 한데 어우러져 마음껏 만끽하시라는 뜻도 내포되어 있는데요, 2003년부터 쭈욱 신촌 홍대의 인디씬과 함께 해 온 전통의 라이브 하우스 GEEK 답게 300회에 달하는, 하나의 브랜드 공연인 '소리滿GEEK' 은 여타 신생 클럽이나, 그저 한두번 하고 마는 단발성 기획공연과 확연히 구별되는, GEEK 만의 정체성이자 존재이유이기도 합니다.</p>
+                        <p>공연장으로써 덩그러니 장소만 있는 것이 아니고 문화예술과 공연이 함께 어우러지는 하나의 즐거운 장(場)이 기꺼이 되기를 바라는 GEEK 만의 마음, 더불어 관객도 뮤지션도 어느 쪽도 소홀히 하지 않겠다는 마인드가 진하게 녹아 있는 GEEK 만의 브랜드 공연이 바로 '소리滿GEEK' 인 것입니다.</p>
+                        <p>이 공연에는 외부 초대나 여러 동기로 섭외되는 뮤지션도 있지만, GEEK 자체 오디션을 통해 자신들을 알릴 기회를 잡으시는 분들이 가장 많습니다.</p>
+                        <p>많은 분들이 찾아오셔서 공연도 즐기시고 기회도 잡고 음악과 공연, 문화예술의 한 페이지를 당당히 장식하는데에 늘 참여를 기다리고 있습니다.</p>
+                        <p>또, '이전 소리만긱 공연 티켓' 을 가지고 오시면, 입장료의 20%를 할인해드리고 있습니다.</p>
+                        <p>언제나 멋진 무대와 출연진을 만들고 기다리고 있겠습니다.</p>
+                        <p>관객으로 오셔도, 뮤지션으로 오셔도 언제나 열려 있는 '소리滿GEEK' 은,계속해서 하나의 브랜드 공연으로써 자리매김해 나아가겠습니다.<span class="blockspan">감사합니다.</span></p>
+                    </article>
+                    <div class="sound_list">
+                        <div>
+                            <ul class="sound_list_ul">
+                                <li data-toggle="modal" data-target="#soundGeek"><img src="img/sound1.jpg" alt="소리만긱 이미지 1"></li>
+                                <li data-toggle="modal" data-target="#soundGeek"><img src="img/sound2.jpg" alt="소리만긱 이미지 2"></li>
+                                <li data-toggle="modal" data-target="#soundGeek"><img src="img/sound3.jpg" alt="소리만긱 이미지 3"></li>
+                                <li data-toggle="modal" data-target="#soundGeek"><img src="img/sound4.jpg" alt="소리만긱 이미지 4"></li>
+                                <li data-toggle="modal" data-target="#soundGeek"><img src="img/sound5.jpg" alt="소리만긱 이미지 5"></li>
+                                <li data-toggle="modal" data-target="#soundGeek"><img src="img/sound6.jpg" alt="소리만긱 이미지 6"></li>
+                                <li data-toggle="modal" data-target="#soundGeek"><img src="img/sound7.jpg" alt="소리만긱 이미지 7"></li>
+                                <li data-toggle="modal" data-target="#soundGeek"><img src="img/sound8.jpg" alt="소리만긱 이미지 8"></li>
+                                <li data-toggle="modal" data-target="#soundGeek"><img src="img/sound9.jpg" alt="소리만긱 이미지 9"></li>
+                                <li data-toggle="modal" data-target="#soundGeek"><img src="img/sound10.jpg" alt="소리만긱 이미지 10"></li>
+                            </ul>
+                        </div>
+                        <p class="prev"><i class="fa fa-angle-left" aria-hidden="true"></i></p>
+                        <p class="next"><i class="fa fa-angle-right" aria-hidden="true"></i></p>
+                    </div>
+                    <!-- 소리만긱 모달 -->
+                    <div class="modal fade" id="soundGeek" tabindex="-1" role="dialog">
+                        <div class="modal-dialog modal-lg">
+                            <section class="modal-content">
+                                <header class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                    <h4 class="modal-title">소리滿Geek</h4>
+                                </header>
+                                <article class="modal-body">
+                                    <ul class="soundGeeks">
+                                        <li>
+                                            <h5>vol.310 소리만긱 Review</h5>
+                                            <figure>
+                                                <img src="img/sound1.jpg" alt="vol.310 소리만긱 포스터">
+                                                <figcaption>vol.310 소리만긱 포스터</figcaption>
+                                            </figure>
+                                            <figure>
+                                                <img src="img/sound1_1.jpg" alt="vol.310 소리만긱 상세 포스터">
+                                                <figcaption>vol.310 소리만긱 상세 포스터</figcaption>
+                                            </figure>
+                                            <p>2014년 10월 23일 목요일, 신촌 GEEK Live house 에서 2014년의 스물 다섯번째 기획공연인 제 310회 '소리만긱'이, 완연해진 가을밤을 함께 했습니다.<br/>(이 날의 공연은, 긴급 공지해드린 대로 '티사운드' 분들이 사정상 참여가 힘드시게 되어 2팀이 조인트 콘서트 식으로 길게 공연하셨습니다)</p>
+                                            <figure>
+                                                <img src="img/unoisingob.jpg" alt="미확인소음물체 사진">
+                                                <figcaption>미확인소음물체</figcaption>
+                                            </figure>
+                                            <p>두 팀 중 먼저 올라오신건 '미확인소음물체' 분들이셨습니다.<br/>'소리만긱' 에서는 종종 뵈었던 분들입니다.<br/>멤버분들의 변동이 있었는데, 이제 안정된 모습을 보여주고 계십니다. '미확인소음물체' 분들의 음악은 일반적인 모던락과는 다른, 잔잔한 듯 개성 강한 사운드와 깔끔한 구성을 보실 수 있는데요, 소개해드리는 곡은 예전부터 해오시던 '택시 드라이버' 라는 곡으로써, 독특한 가사와 그들만의 색깔 있는 진행을 보실 수 있습니다. <br/>팬 페이지 : <a href="http://www.facebook.com/unoisingob">http://www.facebook.com/unoisingob</a></p>
+                                            <a href="https://www.youtube.com/embed/pj02VeQVbxI"><img src="https://i.ytimg.com/vi/pj02VeQVbxI/sddefault.jpg"></a>
+                                            <figure>
+                                                <img src="img/loneyseven.jpg" alt="Loney 7 사진">
+                                                <figcaption>Loney 7</figcaption>
+                                            </figure>
+                                            <p>마지막을 장식해주신 건 'Loney 7 (로니 7)' 분들이셨습니다. <br/>'소리만긱' 에서는 오랫만에 뵙는 분들입니다. <br/>예전에 뵈었을 때는 남성 보컬분과 하드락을 하셨는데, 이번에 '이즈' 라는 여성 보컬분과 함께 하시면서 색깔이 확 바뀌었습니다. 기존 'Loney 7' 을 기억하시는 분들은, 아예 새로운 팀이라고 생각하셔도 되겠네요. 하지만 그 중에도 하드하며 진한 고유의 사운드는 여전합니다. <br/>소개해드리는 곡은 여름에 작업하셨다는 '37.9' 입니다. 이외의 강한 곡들은 역시 공연장에서 직접 들어보시기를 권합니다. <br/>팬 페이지 : <a href="http://facebook.com/loneyseven">http://facebook.com/loneyseven</a></p>
+                                            <a href="https://www.youtube.com/embed/d3hitQka72w"><img src="https://i.ytimg.com/vi/d3hitQka72w/sddefault.jpg"></a>
+                                            <p>이상 2014년 10월 23일 목요일, 310회차 '소리만긱' 에 대한 리뷰를 마치겠습니다.</p>
+                                        </li>
+                                        <li>
+                                            <h5>vol.309 소리만긱 Review</h5>
+                                            <figure>
+                                                <img src="img/sound2.jpg" alt="vol.309 소리만긱 포스터">
+                                                <figcaption>vol.309 소리만긱 포스터</figcaption>
+                                            </figure>
+                                            <figure>
+                                                <img src="img/sound2_1.jpg" alt="vol.309 소리만긱 상세 포스터">
+                                                <figcaption>vol.309 소리만긱 상세 포스터</figcaption>
+                                            </figure>
+                                            <p>2014년 9월 25일 목요일, 신촌 GEEK Live house 에서 2014년의 스물 두번째 기획공인 제 309회 '소리만긱' 공연이, 여름의 끝에서 반가운 팀들과 함꼐 열렸습니다.</p>
+                                            <figure>
+                                                <img src="img/43bear.jpg" alt="사과를 삼킨 곰 사진">
+                                                <figcaption>사과를 삼킨 곰</figcaption>
+                                            </figure>
+                                            <p>첫 무대를 열어주신 건 '사과를 삼킨 곰' 분들이셨습니다.<br/>감성적이며 깔끔한 모던락을 하시는 밴드입니다.  <br/>건반이 있던 초기 이후 또 더욱 안정되어가는 사운드를 들어보실 수 있으며, 일상적인 가사와 특유의 깨끗한 진행이 돋보입니다. <br/>소개해드리는 곡은 가장 최근 곡이라는 '그때 그곳' 이라는 곡으로써, 기억에 남는 후렴구와, 멜로디컬한 베이스 라인, 기타 공간계의 상큼함이 돋보입니다.<br/>팬 페이지 : <a href="https://www.facebook.com/43bear">https://www.facebook.com/43bear</a></p>
+                                            <a href="https://www.youtube.com/embed/nfY_pnWfoDQ"><img src="https://i.ytimg.com/vi/nfY_pnWfoDQ/sddefault.jpg"></a>
+                                            <figure>
+                                                <img src="img/cosmickhan.jpg" alt="코스믹칸 사진">
+                                                <figcaption>코스믹칸</figcaption>
+                                            </figure>
+                                            <p>이어서 'COSMIC KHAN (코스믹칸)' 분들이 올라오셨습니다.<br/>중독성 있고 개성 강한 신스 개러지 팀입니다. <br/>특유의 유머러스함과 분위기가 있지만, 심플한 사운드 속에도 상당히 많은 내공이 담겨져 있습니다.<br/>소개해드리는 곡은 '걷고 싶은' 이라는 곳으로써, 비틀즈 후기 스타일의 변화무쌍한 비트감과 프로그레시브함을 볼 수 있습니다. 이 곡이 끝나면서 드럼비트와 이어지는 '강아지' 라는 재밌는 곡은 직접 공연에서 보시길 권합니다.<br/>팬 페이지 : <a href="https://www.facebook.com/cosmickhan">https://www.facebook.com/cosmickhan</a></p>
+                                            <a href="https://www.youtube.com/embed/9uyTjP8nuaM"><img src="https://i.ytimg.com/vi/9uyTjP8nuaM/sddefault.jpg"></a>
+                                            <figure>
+                                                <img src="img/paperbagrock.jpg" alt="페이퍼백 사진">
+                                                <figcaption>페이퍼백</figcaption>
+                                            </figure>
+                                            <p>이 날의 마지막은 'PAPER BAG (페이퍼백)' 분들이 빛내주셨습니다.<br/>긱 라이브하우스와 좋은 인연을 이어가고 있으며 활발한 활동을 이어가시는 밴드입니다. <br/>새로운 베이시스트 '동완' 님을 긱에서 처음 뵐 수 있는 자리였고요, 이전과 달리 보컬 이펙터나 MR 의 적극적인 사용으로 더욱 풍부하고 꽉 찬 사운드를 즐길 수 있는 무대였습니다. <br/>힙합과 락의 조화로 그루브하면서 타이트한듯 신나고, 부담 없이 누구나 좋아할만한 밴드로써, 소개해 드리는 '안녕' 이라는 곡도 역시 그런 대표 넘버 중의 하나입니다.<br/>팬 페이지 : <a href="https://www.facebook.com/paperbagrock">https://www.facebook.com/paperbagrock</a></p>
+                                            <a href="https://www.youtube.com/embed/lUMRYU7mnyo"><img src="https://i.ytimg.com/vi/lUMRYU7mnyo/sddefault.jpg"></a>
+                                            <p>이상 2014년 9월 25일 목요일, 309회차 '소리만긱' 에 대한 리뷰를 마치겠습니다.</p>
+                                        </li>
+                                        <li>
+                                            <h5>vol.308 소리만긱 Review</h5>
+                                            <figure>
+                                                <img src="img/sound3.jpg" alt="vol.308 소리만긱 포스터">
+                                                <figcaption>vol.308 소리만긱 포스터</figcaption>
+                                            </figure>
+                                            <figure>
+                                                <img src="img/sound3_1.jpg" alt="vol.308 소리만긱 상세 포스터">
+                                                <figcaption>vol.308 소리만긱 상세 포스터</figcaption>
+                                            </figure>
+                                            <p>2014년 9월 18일 목요일, 신촌 GEEK Live house 에서 2014년의 스물 한번째 기획공인 제 308회 '소리만긱' 공연이 다가오는 가을 향기 속에서 열렸습니다.</p>
+                                            <figure>
+                                                <img src="img/bandgnp.jpg" alt="사과를 삼킨 곰 사진">
+                                                <figcaption>사과를 삼킨 곰</figcaption>
+                                            </figure>
+                                            <p>이 날의 시작은 'Goodnight, patrasche (굿나잇, 파트라슈)' 분들이셨습니다.<br/>'소리만긱' 과 참 많은 공연을 함께 해 주신 분들입니다. <br/>감성 발라드와 함께, 색다르면서 '굿나잇, 파트라슈' 의 색채가 짙은 모던락을 들려주고 계시는데요, 새로운 드러머 '정원' 님의 합류로 빛나는 무대였습니다. 부드러운 가사, 블루지한 기타와 함께 나날이 깊이감을 더해가고 있습니다. <br/>소개해드리는 곡은 '하지마' 라는 곡으로써, 몽환적인 사운드와 풍부한 화음을 즐기실 수 있습니다.<br/>팬 페이지 : <a href="https://www.facebook.com/bandgnp">https://www.facebook.com/bandgnp</a></p>
+                                            <a href="https://www.youtube.com/embed/E61tt_Qrk_o"><img src="https://i.ytimg.com/vi/E61tt_Qrk_o/sddefault.jpg"></a>
+                                            <figure>
+                                                <img src="img/wearelets.jpg" alt="렛츠 사진">
+                                                <figcaption>렛츠</figcaption>
+                                            </figure>
+                                            <p>두번째로 올라오신 분들은 'Let`s (렛츠)' 분들이셨습니다.<br/>'소리만긱' 에서 종종 뵙던 분들이죠? 이 날의 무대는 더욱 타이트하고 호흡이 좋았습니다.<br/>다양한 장르, 깔끔하고 신나는 무대와 함께 매끄러운 진행도 돋보입니다. <br/>소개해드리는 곡은 'You and I' 라는 곡입니다. 렛츠의 타이틀 곡으로써 절절한 감정과 호소력 짙은 보컬을 들으실 수 있습니다. 이외 흥겨운 곡들은 직접 공연에서 보실 수 있습니다 ^^<br/>팬 페이지 : <a href="https://www.facebook.com/wearelets">https://www.facebook.com/wearelets</a></p>
+                                            <a href="https://www.youtube.com/embed/e7pYNU1Q8gY"><img src="https://i.ytimg.com/vi/e7pYNU1Q8gY/sddefault.jpg"></a>
+                                            <figure>
+                                                <img src="img/bandaxiz.jpg" alt="엑시즈 사진">
+                                                <figcaption>엑시즈</figcaption>
+                                            </figure>
+                                            <p>마지막을 빛내주신 건  'AXIZ (엑시즈)' 분들이셨습니다.<br/>수많은 크고 작은 무대에서의 경험이 녹아있는 실력파 밴드입니다. <br/>'긱 라이브하우스'와도 좋은 인연을 이어가고 있는데요, 한창 녹음 작업을 진행중이시라니, 곧 멋진 앨범과 함께 돌아오실 예정입니다.  <br/>깔끔하며 시원한 사운드와 정통적이 느낌이 액시즈만의 고유한 색깔인데요, 소개해드리는 곡은 'Happy' 로써, 에너지가 풍부하면서도 센스있는 구성이 재미있는 곡입니다.<br/>팬 페이지 : <a href="https://www.facebook.com/bandaxiz">https://www.facebook.com/bandaxiz</a></p>
+                                            <a href="https://www.youtube.com/embed/XWFLQg1OYAo"><img src="https://i.ytimg.com/vi/XWFLQg1OYAo/sddefault.jpg"></a>
+                                            <p>이상 2014년 9월 18일 목요일, 308회차 '소리만긱' 에 대한 리뷰를 마치겠습니다.</p>
+                                        </li>
+                                        <li>
+                                            <h5>vol.307 소리만긱 Review</h5>
+                                            <figure>
+                                                <img src="img/sound4.jpg" alt="vol.307 소리만긱 포스터">
+                                                <figcaption>vol.307 소리만긱 포스터</figcaption>
+                                            </figure>
+                                            <figure>
+                                                <img src="img/sound4_1.jpg" alt="vol.307 소리만긱 상세 포스터">
+                                                <figcaption>vol.307 소리만긱 상세 포스터</figcaption>
+                                            </figure>
+                                            <p>2014년 8월 7일 목요일, 신촌 GEEK Live house 에서 2014년의 스무번째 기획공인 제 307회 '소리만긱' 공연이 뜨거운 여름밤과 함께 했습니다.</p>
+                                            <figure>
+                                                <img src="img/bandnarang.jpg" alt="나랑 사진">
+                                                <figcaption>나랑</figcaption>
+                                            </figure>
+                                            <p>'나랑' 분들이 그 날의 시작을 열어주셨습니다.<br/>'소리만긱' 에서 처음 뵙는 분들이죠? <br/>감성 모던락 팀이자, 섬세한 감성과 일상적인 가사, 누구나 느끼며 살아가고 또한 잊어가는 감정에 대해 노래하는 팀입니다.<br/>소개해드리는 곡은 '정지화상' 이라는 곡으로써, 모던하면서도 프로그레시브한 느낌이 잘 살아 있고, 시작과 끝에 묘한 여운을 남기는 곡입니다.<br/>팬 페이지 : <a href="https://www.facebook.com/bandnarang">https://www.facebook.com/bandnarang</a></p>
+                                            <a href="https://www.youtube.com/embed/KVliO-qir6Y"><img src="https://i.ytimg.com/vi/KVliO-qir6Y/sddefault.jpg"></a>
+                                            <figure>
+                                                <img src="img/anotherme1030.jpg" alt="어나더 미 사진">
+                                                <figcaption>어나더 미</figcaption>
+                                            </figure>
+                                            <p>두번째로는 'Another Me (어나더 미)' 분들이 올라오셨습니다.<br/>마찬가지로 '소리만긱'에서 처음 뵙는 분들입니다.<br/>저희의 공개오디션 기획공연인 'GEEK 1st DAY ( http://blog.naver.com/geeklive/220050318130 )' 로 먼저 인사드렸었는데요, 남성적이면서도 힘 있는 사운드와 진중한 무대를 보실 수 있습니다. <br/>소개해드리는 곡은 '너에게 가고 있어' 라는 곡입니다. 기억에 잘 남는 후렴과 깔끔한 연주가 어우러져서 생동감 있고 흥겨운 조화를 보여주고 있습니다. 다른 헤비한 곡들도 언젠가 소개해드리겠네요.<br/>팬 페이지 : <a href="https://www.facebook.com/anotherme1030">https://www.facebook.com/anotherme1030</a></p>
+                                            <a href="https://www.youtube.com/embed/JIi48E0UkH4"><img src="https://i.ytimg.com/vi/JIi48E0UkH4/sddefault.jpg"></a>
+                                            <figure>
+                                                <img src="img/bandIMGL.jpg" alt="IMGL 사진">
+                                                <figcaption>IMGL</figcaption>
+                                            </figure>
+                                            <p>이 날의 마지막은 'IMGL' 분들이 마무리해주셨습니다.<br/>왕성한 활동으로 그 영역을 넓혀가고 있는 'IMGL'.<br/>하드록부터 발라드까지 넓은 스펙트럼을 열정적으로 펼치시는 분들입니다.<br/>연주와 호흡이 더욱 탄력을 받아가는 느낌인데요, 저희 공연장에서도 늘 좋은 무대를 보여주고 계십니다.<br/>소개해드리는 곡은 'Make my life' 로써, 타이트한 그르부와 락킹한 진행에 파워풀한 무대가 빛났습니다. ​어코스틱 버스킹도 종종 하신다니까, 색다른 반전의 재미도 느끼실 수 있겠네요.<br/>팬 페이지 : <a href="https://www.facebook.com/bandIMGL">https://www.facebook.com/bandIMGL</a></p>
+                                            <a href="https://www.youtube.com/embed/IANfysKe_0U"><img src="https://i.ytimg.com/vi/IANfysKe_0U/sddefault.jpg"></a>
+                                            <p>이상 2014년 8월 7일 목요일, 307회차 '소리만긱' 에 대한 리뷰를 마치겠습니다.</p>
+                                        </li>
+                                        <li>
+                                            <h5>vol.306 소리만긱 Review</h5>
+                                            <figure>
+                                                <img src="img/sound5.jpg" alt="vol.306 소리만긱 포스터">
+                                                <figcaption>vol.306 소리만긱 포스터</figcaption>
+                                            </figure>
+                                            <figure>
+                                                <img src="img/sound5_1.jpg" alt="vol.306 소리만긱 상세 포스터">
+                                                <figcaption>vol.306 소리만긱 상세 포스터</figcaption>
+                                            </figure>
+                                            <p>2014년 7월 17일 목요일 제헌절, 신촌 GEEK Live house 에서 2014년의 열 여덟번째 기획공인 제 306회 '소리만긱' 공연이, 2014년의 뜨거운 여름 7월에 열렸습니다.</p>
+                                            <figure>
+                                                <img src="img/gnsband5P.jpg" alt="곱창에 소주 사진">
+                                                <figcaption>곱창에 소주</figcaption>
+                                            </figure>
+                                            <p>이 날의 시작은 '곱창에 소주' 분들이 열어주셨습니다.<br/>재미있는 팀명과는 다르게, 잔잔하면서도 애절한 감성 모던락 밴드입니다.<br/>이 날은 평소와는 다른 구성으로, 밴드 '찬찬히' 의 김규찬님이 리드기타(빨간 모자를 쓰신)를 맡아주셔서 평소와 조금 다른 느낌의 무대였네요.<br/>소개해드리는 곡은, 보컬 손지훈님의 개인적인 경험에서 쓰신 곡이라는 '이젠' 이라는 발라드곡입니다. 절절한 분위기와 절제된 사운드에 호소력 있는 후렴구가 인상적입니다.<br/>팬 페이지 : <a href="https://www.facebook.com/gnsband5P">https://www.facebook.com/gnsband5P</a></p>
+                                            <a href="https://www.youtube.com/embed/lJFzx_ZP9gc"><img src="https://i.ytimg.com/vi/lJFzx_ZP9gc/sddefault.jpg"></a>
+                                            <figure>
+                                                <img src="img/unoisingob2.jpg" alt="미확인소음물체 사진">
+                                                <figcaption>미확인소음물체</figcaption>
+                                            </figure>
+                                            <p>이어서 '미확인소음물체' 분들이 바톤을 이어받으셨습니다.<br/>'소리만긱' 과는 긴 시간을 함께 해 주신 밴드입니다.<br/>이 날의 리드기타이신 박현웅님이 이 공연을 끝으로 사정상 못 하시게 되고, 곧 새로운 멤버분과 함께하실 텐데요, 멋진 무대로 다시 뵐 수 있으면 좋겠습니다.<br/>'마확인소음물체' 분들의 시니컬한듯 묘한 느낌의 곡들은 여러 곡들에서 알 수 있는데요, 자작곡이 아닌 커버곡 'Smells like teen spirit' 을 올려드립니다. 'Nirvana' 의 전설적인 곡이죠? 감각적인 편곡과 멜랑꼴리하면서 파워 있는 무대를 보실 수 있습니다.<br/>팬 페이지 : <a href="https://www.facebook.com/unoisingob2">https://www.facebook.com/unoisingob2</a></p>
+                                            <a href="https://www.youtube.com/embed/f0rrrHKbGUc"><img src="https://i.ytimg.com/vi/f0rrrHKbGUc/sddefault.jpg"></a>
+                                            <figure>
+                                                <img src="img/bandaxiz2.jpg" alt="엑시즈 사진">
+                                                <figcaption>엑시즈</figcaption>
+                                            </figure>
+                                            <p>마지막 무대는 'AXIZ(엑시즈)' 분들이 빛내주셨습니다.<br/>유명세를 타게 한 KBS TV 의 'Top band' 후에도 다양하고 많은 활동으로 더욱 단단해지고 원숙해지는 느낌의 밴드입니다. 그 힘 있고 열정 가득한 무대는 영상보다는 역시 직접 보셔야 아실 겁니다.<br/>소개해드리는 곡은 '20세기 소년' 으로써, 현대적인 느낌과 정통적인 느낌이 잘 어우러져있으면서 센스 있는 연주와 신나는 분위기가 두드러지는 곡입니다. 무엇보다, '한 팀' 으로써의 오랜 호흡을 잘 보실 수 있겠네요.<br/>팬 페이지 : <a href="https://www.facebook.com/bandaxiz">https://www.facebook.com/bandaxiz</a></p>
+                                            <a href="https://www.youtube.com/embed/bOi--JBiEtM"><img src="https://i.ytimg.com/vi/bOi--JBiEtM/sddefault.jpg"></a>
+                                            <p>이상 2014년 7월 17일 목요일, 306회차 '소리만긱' 에 대한 리뷰를 마치겠습니다.</p>
+                                        </li>
+                                        <li>
+                                            <h5>vol.305 소리만긱 Review</h5>
+                                            <figure>
+                                                <img src="img/sound6.jpg" alt="vol.305 소리만긱 포스터">
+                                                <figcaption>vol.305 소리만긱 포스터</figcaption>
+                                            </figure>
+                                            <figure>
+                                                <img src="img/sound6_1.jpg" alt="vol.305 소리만긱 상세 포스터">
+                                                <figcaption>vol.305 소리만긱 상세 포스터</figcaption>
+                                            </figure>
+                                            <p>2014년 6월 26일, 목요일 신촌 GEEK Live house 에서 2014년의 열 일곱번째 기획공인 제 305회 '소리만긱' 공연이, 2014년의 반을 보내는 6월 말에 열렸습니다.</p>
+                                            <figure>
+                                                <img src="img/bandgnp2.jpg" alt="굿나잇, 파트라슈 사진">
+                                                <figcaption>굿나잇, 파트라슈</figcaption>
+                                            </figure>
+                                            <p>작년 초부터 '소리만긱' 과 꾸준히 함께 하신 분들입니다.<br/>이 날은 다른 날과는 조금 다른 의미가 있는 공연이었던게, 드러머 '홍신' 님과 함께 하는 마지막 무대셨습니다(이 라인업으로의 첫 무대도 작년의 '소리만긱' 이셨다는군요). 아쉽지만, 새로운 멤버와 재정비 후 더 좋은 모습으로 그리 멀지 않은 시간에 돌아오신다고 합니다. <br/>소개해 드리는 곡은 '불안해' 로, 굿나잇 파트라슈의 초기부터 함께 해 온 곡입니다. 점점 서로에게 흔들리는 남녀의 불안한 감성이 섬세하게 잘 살아있는 모던 곡이면서, 블루지한 기타 연주 또한 돋보입니다.<br/>팬 페이지 : <a href="https://www.facebook.com/bandgnp">https://www.facebook.com/bandgnp</a></p>
+                                            <a href="https://www.youtube.com/embed/0PhbUU582fM"><img src="https://i.ytimg.com/vi/0PhbUU582fM/sddefault.jpg"></a>
+                                            <figure>
+                                                <img src="img/band64.jpg" alt="64 사진">
+                                                <figcaption>64</figcaption>
+                                            </figure>
+                                            <p>두번째 무대로는 'learz(64) 님이 올라오셨습니다.<br/>'소리만긱' 과는 긴 시간을 함께 해 주신 밴드입니다.<br/>공연 전에 긴급 공지해드린 대로, 이 날 원래 참여하기로 했던 '64' 밴드가 급한 상황으로 멤버 전원이 못 올라오시게 되면서, '64' 의 기타리스트인 'learz' 님의 기타솔로 무대로 색다르게 꾸며졌습니다. <br/>소개해드리는 곡은, 약 7년전 유투브에서 자그마치 천만건 이상의 조회수를 기록했다는 '캐논' 으로써, 익히 알고 계시는 '캐논의 변주곡' 을 화려한 테크닉과 함께 개성 있게 편곡하셨습니다. 익숙한 곡이니 더 감상하시기 좋겠네요.<br/>팬 페이지 : <a href="https://www.facebook.com/Band64">https://www.facebook.com/Band64</a></p>
+                                            <a href="https://www.youtube.com/embed/rV0GGHeSi7Y"><img src="https://i.ytimg.com/vi/rV0GGHeSi7Y/sddefault.jpg"></a>
+                                            <figure>
+                                                <img src="img/bandfancy.jpg" alt="더 팬시 사진">
+                                                <figcaption>더 팬시</figcaption>
+                                            </figure>
+                                            <p>분위기를 조금 바꿔볼까요? 'The Fancy(더 팬시)' 분들이 마지막으로 올라오셨습니다.<br/>스트레이트하고 힘 있는 뉴메틀 밴드입니다.<br/>그렇다고 너무 하드코어한 느낌이 강해서 대중들에게 힘든 음악이 아닌, 파워 있고 재치 있는 편곡과 좋은 톤을 그루브함 속에서 들어보실 수 있습니다.<br/>소개시켜 드리는 곡은 '고래사냥' 으로써, 익히 알고 계시는 곡이라도 'The Fancy' 가 하면 이런 느낌이다라는 걸 잘 아실 수 있습니다. 관객과의 호흡도 좋았던 공연이네요.<br/>팬 페이지 : <a href="https://www.facebook.com/bandfancy">https://www.facebook.com/bandfancy</a></p>
+                                            <a href="https://www.youtube.com/embed/b34Klc66BJI"><img src="https://i.ytimg.com/vi/b34Klc66BJI/sddefault.jpg"></a>
+                                            <p>이상 2014년 6월 26일 목요일, 305회차 '소리만긱' 에 대한 리뷰를 마치겠습니다.</p>
+                                        </li>
+                                        <li>
+                                            <h5>vol.304 소리만긱 Review</h5>
+                                            <figure>
+                                                <img src="img/sound7.jpg" alt="vol.304 소리만긱 포스터">
+                                                <figcaption>vol.304 소리만긱 포스터</figcaption>
+                                            </figure>
+                                            <figure>
+                                                <img src="img/sound7_1.jpg" alt="vol.304 소리만긱 상세 포스터">
+                                                <figcaption>vol.304 소리만긱 상세 포스터</figcaption>
+                                            </figure>
+                                            <p>2014년 6월 19일, 목요일 신촌 GEEK Live house 에서 2014년의 열 여섯번째 기획공인 제 304회 '소리만긱' 공연이, 화끈한 라인업과 함께 여름밤을 뜨겁게 달궜습니다.</p>
+                                            <figure>
+                                                <img src="img/housetrain1.jpg" alt="하우스 트레인 사진">
+                                                <figcaption>하우스 트레인</figcaption>
+                                            </figure>
+                                            <p>이 날은 'House Train(하우스 트레인)' 분들이 그 시작을 열어주셨습니다.<br/>'소리만긱' 에서는 처음 뵙는 분들이죠?<br/>'House Train(하우스 트레인)' 은, 저항과 사회의 부조리를 고발하는 시대정신을 갖고 있는 팀입니다.<br/>소개시켜드리는 곡은 '반딧불이' 로써, 일제 강점기에 반딧불이로 돌아오겠다며 가미가제로 뛰어들 수 밖에 없던 한국인의 아픔을 노래하고 있습니다. 열정적인 무대매너와 타이트한 분위기가 돋보입니다.<br/>팬 페이지 : <a href="https://www.facebook.com/housetrain1">https://www.facebook.com/housetrain1</a></p>
+                                            <a href="https://www.youtube.com/embed/LYGPrtV-rWQ"><img src="https://i.ytimg.com/vi/LYGPrtV-rWQ/sddefault.jpg"></a>
+                                            <figure>
+                                                <img src="img/BandDrongo.jpg" alt="드론고 사진">
+                                                <figcaption>드론고</figcaption>
+                                            </figure>
+                                            <p>이어서 달아오른 분위기는 'Drongo(드론고)' 분들이 이어주셨습니다.<br/>'Drongo(드론고)' 는 '기묘한 어둠을 이야기하는 록밴드' 라는 슬로건 답게, 음울하면서도 아주 개성 있는 음악을 하는 팀입니다. 저희 '소리만긱' 과는 긴 인연을 이어오고 있는데요, 앨범 수록곡이자 대표곡 중 하나라고 할 수 있는 '거품' 을 소개해드립니다. 몽환적이면서 묘한 분위기와 함께 꿈틀거리는 그루브가 인상적입니다.<br/>팬 페이지 : <a href="https://www.facebook.com/BandDrongo">https://www.facebook.com/BandDrongo</a></p>
+                                            <a href="https://www.youtube.com/embed/3GWCt5ugAq0"><img src="https://i.ytimg.com/vi/3GWCt5ugAq0/sddefault.jpg"></a>
+                                            <figure>
+                                                <img src="img/BandTheHole.jpg" alt="더 홀 사진">
+                                                <figcaption>더 홀</figcaption>
+                                            </figure>
+                                            <p>화끈한 마무리는 'The Hole(더 홀)' 분들이 빛내주셨습니다.<br/>정통적인 느낌과 파워풀한 무대를 보여주시는 팀입니다.<br/>소개시켜 드리는 곡은 'Number One(넘버원)' 으로써, 락킹한 느낌과 함께 꽉찬 사운드와 정열적인 보컬을 들어보실 수 있습니다. 다른 영상은 소개시켜 드리지 못 했지만, 넘치는 에너지와 매끈한 진행 또한 돋보이는 밴드입니다.<br/>팬 페이지 : <a href="https://www.facebook.com/BandTheHole">https://www.facebook.com/BandTheHole</a></p>
+                                            <a href="https://www.youtube.com/embed/QWRY67iXgOo"><img src="https://i.ytimg.com/vi/QWRY67iXgOo/sddefault.jpg"></a>
+                                            <p>이상 2014년 6월 19일 목요일, 304회차 '소리만긱' 에 대한 리뷰를 마치겠습니다.</p>
+                                        </li>
+                                        <li>
+                                            <h5>vol.303 소리만긱 Review</h5>
+                                            <figure>
+                                                <img src="img/sound8.jpg" alt="vol.303 소리만긱 포스터">
+                                                <figcaption>vol.303 소리만긱 포스터</figcaption>
+                                            </figure>
+                                            <figure>
+                                                <img src="img/sound8_1.jpg" alt="vol.303 소리만긱 상세 포스터">
+                                                <figcaption>vol.303 소리만긱 상세 포스터</figcaption>
+                                            </figure>
+                                            <p>2014년 6월 12일, 목요일 신촌 GEEK Live house 에서 2014년의 열 다섯번째 기획공인 제 303회 '소리만긱' 공연이, 발랄한 라인업과 함께 열렸습니다.</p>
+                                            <figure>
+                                                <img src="img/bandIMGL2.jpg" alt="IMGL 사진">
+                                                <figcaption>IMGL</figcaption>
+                                            </figure>
+                                            <p>강렬한 시작은 'IMGL' 분들이 열어주셨습니다.<br/>각종 공연과 버스킹으로 활발하게 영역을 넓히며 활동하시는 팀입니다.<br/>늘 '젊은 패기' 라는 말에 걸맞는 무대를 보여주시고 있고요, 점점 진보하며 꽉 차가는 느낌이 매우 좋습니다. 하드락부터 발라드까지 폭 넓은 음악을 하시는 팀이시고요, <br/>소개시켜드리는 곡은 'Pride' 라는 곡으로, 앵콜을 받아서 하신 곡입니다. 타이트한 연주와 보컬이 인상적인 곡입니다.<br/>팬 페이지 : <a href="https://www.facebook.com/bandIMGL">https://www.facebook.com/bandIMGL</a></p>
+                                            <a href="https://www.youtube.com/embed/2pRV_sh1OyQ"><img src="https://i.ytimg.com/vi/2pRV_sh1OyQ/sddefault.jpg"></a>
+                                            <figure>
+                                                <img src="img/cosmickhan1.jpg" alt="코스믹칸 사진">
+                                                <figcaption>코스믹칸</figcaption>
+                                            </figure>
+                                            <p>두번째 무대는 'Cosmic khan(코스믹칸)' 분들이 바톤을 이어 받으셨습니다.<br/>신스 개러지 밴드답게 아주 개성적인 음악을 하시는 팀입니다.<br/>쉬우면서도 귀에 남고, 그루브하면서도 묘한 느낌을 갖는 곡의, 흔하지 않은 색깔의 혼성 밴드인데요, 신나고 댄스틱한 노래도 있지만, 소개시켜드리는 곡은 '럭키 스타' 라는 곡으로써, 기억에 남는 멜로디와 재밌는 구성이 돋보이는 곡입니다.<br/>팬 페이지 : <a href="https://www.facebook.com/cosmickhan">https://www.facebook.com/cosmickhan</a></p>
+                                            <a href="https://www.youtube.com/embed/RdWy3o7eaEA"><img src="https://i.ytimg.com/vi/RdWy3o7eaEA/sddefault.jpg"></a>
+                                            <figure>
+                                                <img src="img/sonsoftiger.jpg" alt="더 홀 사진">
+                                                <figcaption>더 홀</figcaption>
+                                            </figure>
+                                            <p>이 날의 마지막 무대는 '호랑이 아들들' 분들이 장식해주셨습니다.<br/>'소리만긱' 에서는 처음 뵙는 분들이죠? 기억에 강하게 남을 팀명의 '호랑이 아들들' 입니다.<br/>3인조 블루스 락앤롤 밴드라는 이름에 걸맞게, 진하고 정통적인 색채가 강하신 팀입니다.<br/>소개시켜 드리는 곡은 'Come to my bed' 로써, 끈적하고 진중한 분위기의 블루스 색채가 강한 곡입니다. 신나는 락앤롤 넘버는 역시 직접 보셔야겠죠?<br/>팬 페이지 : <a href="https://www.facebook.com/sonsoftiger">https://www.facebook.com/sonsoftiger</a></p>
+                                            <a href="https://www.youtube.com/embed/cjgZTwLpSA0"><img src="https://i.ytimg.com/vi/cjgZTwLpSA0/sddefault.jpg"></a>
+                                            <p>이상 2014년 6월 12일 목요일, 303회차 '소리만긱' 에 대한 리뷰를 마치겠습니다.</p>
+                                        </li>
+                                        <li>
+                                            <h5>vol.302 소리만긱 Review</h5>
+                                            <figure>
+                                                <img src="img/sound9.jpg" alt="vol.302 소리만긱 포스터">
+                                                <figcaption>vol.302 소리만긱 포스터</figcaption>
+                                            </figure>
+                                            <figure>
+                                                <img src="img/sound9_1.jpg" alt="vol.302 소리만긱 상세 포스터">
+                                                <figcaption>vol.302 소리만긱 상세 포스터</figcaption>
+                                            </figure>
+                                            <p>2014년 6월 5일 현충일 하루 전, 목요일 신촌 GEEK Live house 에서 2014년의 열네번째 기획공인 제 302회 '소리만긱' 공연이, 부쩍 여름 소식을 들고 함께 찾아왔습니다.</p>
+                                            <figure>
+                                                <img src="img/43bear2.jpg" alt="사과를 삼킨 곰 사진">
+                                                <figcaption>사과를 삼킨 곰</figcaption>
+                                            </figure>
+                                            <p>첫 순서로 '사과를 삼킨 곰' 분들이 무대를 열어주셨습니다.<br/>보컬분이 스타일이 좀 바뀌셨죠? 그리고 지금 건반분이 안 계셔서 이전보다는 다른 모습일 수도 있겠네요. 하지만 그렇다고 사운드가 비거나 하진 않으셨습니다.<br/>소개시켜드리는 곡은 'Endless trip' 으로, 사과를 삼킨 곰의 EP 수록곡입니다. 유머러스한듯한 팀 분위기와 달리 절절한 감성이 잘 녹아 있는 팀이자, 강렬한 후렴이 인상적인 곡입니다.<br/>팬 페이지 : <a href="https://www.facebook.com/43bear">https://www.facebook.com/43bear</a></p>
+                                            <a href="https://www.youtube.com/embed/RIG2gcF8VBg"><img src="https://i.ytimg.com/vi/RIG2gcF8VBg/sddefault.jpg"></a>
+                                            <figure>
+                                                <img src="img/monello.jpg" alt="모넬로 사진">
+                                                <figcaption>모넬로</figcaption>
+                                            </figure>
+                                            <p>이어서 두번째로 'Monello(모넬로)' 분들이 올라오셨습니다.<br/>활동을 시작하신지 얼마 안 되었지만, 왕성한 활동을 보여주시는 팀입니다.<br/>소개시켜드리는 곡은 'Green light' 라는 곡으로써, 보컬 분 말씀처럼 TV 프로그램 '마녀사냥'의 테마 송이 된다면 정말 좋겠군요 ^^ 깔끔한 진행과 모던한 매력, 흥겨움을 동시에 느낄 수 있는 팀입니다.<br/>팬 페이지 : <a href="https://www.facebook.com/band.monello">https://www.facebook.com/band.monello</a></p>
+                                            <a href="https://www.youtube.com/embed/lTm4s1ehsb4"><img src="https://i.ytimg.com/vi/lTm4s1ehsb4/sddefault.jpg"></a>
+                                            <figure>
+                                                <img src="img/wearelets2.jpg" alt="렛츠 사진">
+                                                <figcaption>렛츠</figcaption>
+                                            </figure>
+                                            <p>마지막 무대로는 'Let`s(렛츠)' 분들이 마무리해주셨습니다.<br/>발랄한 분위기와 함께 펑키한 느낌도 있으신 팀입니다. 소개해드리는 곡은 그 중에서도 'Here I am' 이라는 곡으로써, 차분하지만 열정적인 분위기가 진중하게 담겨져 있습니다. 보컬분은 이 날 부상투혼(?)을 빛내며 멋진 무대를 보여주셨습니다. 다음 공연때는 또 더욱 액티브한 무대를 보여주실 예정입니다.<br/>팬 페이지 : <a href="https://www.facebook.com/wearelets2">https://www.facebook.com/wearelets2</a></p>
+                                            <a href="https://www.youtube.com/embed/p7EqAvpBHBQ"><img src="https://i.ytimg.com/vi/p7EqAvpBHBQ/sddefault.jpg"></a>
+                                            <p>이상 2014년 6월 5일 목요일, 302회차 '소리만긱' 에 대한 리뷰를 마치겠습니다.</p>
+                                        </li>
+                                        <li>
+                                            <h5>vol.301 소리만긱 Review</h5>
+                                            <figure>
+                                                <img src="img/sound10.jpg" alt="vol.301 소리만긱 포스터">
+                                                <figcaption>vol.301 소리만긱 포스터</figcaption>
+                                            </figure>
+                                            <figure>
+                                                <img src="img/sound10_1.jpg" alt="vol.301 소리만긱 상세 포스터">
+                                                <figcaption>vol.301 소리만긱 상세 포스터</figcaption>
+                                            </figure>
+                                            <p>2014년 5월 15일 스승의 날, 목요일 신촌 GEEK Live house 에서 2014년의 열세번째 기획공인 제 301회 '소리만긱' 공연이, 초여름밤 같은 선선한 날씨 속에서 열렸습니다.</p>
+                                            <figure>
+                                                <img src="img/gnsband5P2.jpg" alt="곱창에 소주 사진">
+                                                <figcaption>곱창에 소주</figcaption>
+                                            </figure>
+                                            <p>그 처음은 '곱창에 소주' 분들이 열어주셨습니다.<br/>'소리만긱'에서는 두번째 뵙는 분들입니다. ​<br/>'곱창에 소주' 라는 독특한 팀명과는 다르게, 차분한 모던 발라드 팀이십니다.<br/>이전보다 더 깊어진 사운드와 매끄러운 진행을 보실 수 있습니다. 특히 '이젠' . 'ㅠㅠ' 등이 호소력 짙은 넘버이니 주의 깊게 들어보시면 좋을 것 같네요.<br/>팬 페이지 : <a href="https://www.facebook.com/gnsband5P">https://www.facebook.com/gnsband5P</a></p>
+                                            <a href="https://www.youtube.com/embed/f0pLCvzifQ0"><img src="https://i.ytimg.com/vi/f0pLCvzifQ0/sddefault.jpg"></a>
+                                            <figure>
+                                                <img src="img/thewoozy.jpg" alt="모넬로 사진">
+                                                <figcaption>모넬로</figcaption>
+                                            </figure>
+                                            <p>그리고, The Woozy(더 우지)' 분들이 그 바톤을 이어 받으셨습니다.<br/>'소리만긱' 에서는 처음 뵙는 분들이죠?<br/>3인조 로큰롤 보이밴드라는 이름 답게, 깔끔한 컨셉에 흥겨운 로큰롤을 보여주시고 있습니다.<br/>약간 개러지 풍도 나면서, 스트레이트하지만 블루지함도 동시에 갖고 있어서 여러가지 매력을 보실 수 있는 팀입니다. 앞으로도 좋은 공연으로 또 뵐 수 있으면 좋겠네요.<br/>팬 페이지 : <a href="https://www.facebook.com/thewoozy">https://www.facebook.com/thewoozy</a></p>
+                                            <a href="https://www.youtube.com/embed/FAAFNOLfBgM"><img src="https://i.ytimg.com/vi/FAAFNOLfBgM/sddefault.jpg"></a>
+                                            <figure>
+                                                <img src="img/paperbagrock2.jpg" alt="렛츠 사진">
+                                                <figcaption>렛츠</figcaption>
+                                            </figure>
+                                            <p>이 날의 마무리는 'Paperbag(페이퍼백)' 분들이 장식해 주셨습니다.<br/>감성 힙합 밴드이시면서, '소리만긱'과는 꾸준히 함께 해 오신 분들입니다.<br/>공석이었던 베이스 멤버분의 자리를 반년간 도와주시던 세션분과의 마지막 자리였습니다. 아쉽기도 하지만, 정식 멤버를 구하셨더니 또 다른 페이퍼백의 모습을 곧 보실 수 있겠네요. <br/>언제나 그렇듯 꽉 찬 사운드 속에, 개성적이고 그루브한 무대였습니다. 특히, 여러 분들이 아실만한 커버 메들리를 준비하셔서, 호응과 함께 분위기를 돋구시는 모습도 참 좋았습니다.<br/>팬 페이지 : <a href="https://www.facebook.com/paperbagrock">https://www.facebook.com/paperbagrock</a></p>
+                                            <a href="https://www.youtube.com/embed/rgqOSOQJqIQ"><img src="https://i.ytimg.com/vi/rgqOSOQJqIQ/sddefault.jpg"></a>
+                                            <p>이상 2014년 5월 15일 목요일, 301회차 '소리만긱' 에 대한 리뷰를 마치겠습니다.</p>
+                                        </li>
+                                    </ul>
+                                    <p class="prev_btn"><i class="fa fa-angle-left" aria-hidden="true"></i></p>
+                                    <p class="next_btn"><i class="fa fa-angle-right" aria-hidden="true"></i></p>
+                                </article>
+                                <footer class="modal-footer">
+                                    <p class="modal-page"></p>
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                </footer>
+                            </section>
+                        </div>
+                    </div>
+                </section>
+                <!-- 소리만 긱 끝 -->
+                <!-- 기획공연 시작 -->
+                <section id="planGall" class="clearfix">
+                    <h3>기획 공연</h3>
+                    <figure class="col-xs-3">
+                        <img src="img/plan1.jpg" alt="긱커즈 vol.3 공연 포스터">
+                        <figcaption class="hidden">긱커즈 vol.3 공연 포스터</figcaption>
+                    </figure>
+                    <article class="col-xs-9 clearfix">
+                        <h4>20160709(토) 'GEEKERZ(긱커즈) 3' - 92 스페셜 - 힙합 기획공연</h4>
+                        <div class="col-xs-4">
+	                        <ul class="plan_lineup">
+	                            <li>&lt; Line up &gt;</li>
+	                            <li>2TONE</li>
+	                            <li>어센틱키즈</li>
+	                            <li>GimGABB</li>
+	                            <li>신얼</li>
+	                            <li>Aphelia</li>
+	                            <li>머리X윌로</li>
+	                            <li>Dino.T</li>
+	                        </ul>
+	                        <p class="plan_detail">2016. 7. 9 (토) 6:00 PM<span class="blockspan">10,000 원</span></p>
+                        </div>
+                        <ul class="plan_list col-xs-5">
+                            <li><img src="img/plan1_img.jpg" alt="기획공연 사진1"></li>
+                            <li><img src="https://i.ytimg.com/vi/66QCOtqqrcQ/sddefault.jpg" alt="기획공연 사진2"></li>
+                            <li><img src="https://i.ytimg.com/vi/PISZFoFVyhI/sddefault.jpg" alt="기획공연 사진3"></li>
+                        </ul>
+                    </article>
+                    <div class="plan_gall col-xs-12 clearfix">
+                        <div>
+                            <ul class="plan_gall_ul">
+                                <li><img src="img/plan1.jpg" alt="기획공연 1"></li>
+                                <li><img src="img/plan2.jpg" alt="기획공연 2"></li>
+                                <li><img src="img/plan3.jpg" alt="기획공연 3"></li>
+                                <li><img src="img/plan4.jpg" alt="기획공연 4"></li>
+                                <li><img src="img/plan5.jpg" alt="기획공연 5"></li>
+                                <li><img src="img/plan6.jpg" alt="기획공연 6"></li>
+                            </ul>
+                        </div>
+                        <p class="prev"><i class="fa fa-angle-left" aria-hidden="true"></i></p>
+                        <p class="next"><i class="fa fa-angle-right" aria-hidden="true"></i></p>
+                    </div>
+                </section>
+                <!-- 기획공연 끝 -->
+                <!-- 대관공연 갤러리 시작 -->
+                <section id="rentGall" class="clearfix">
+                    <h3>대관 공연 갤러리</h3>
+                    <div class="rent_gall col-xs-12 clearfix">
+                        <div>
+                            <ul class="rent_gall_ul">
+                                <li class="thumb_n" data-toggle="modal" data-target="#rentGeek">
+                                	<img src="img/perform1.jpg" alt="대관공연 1">
+                                	<h4>20160720 수요일 공연- '난장판 여름 정기공연'</h4>
+                                </li>
+                                <li data-toggle="modal" data-target="#rentGeek">
+                                	<img src="img/perform2.jpg" alt="대관공연 2">
+                                	<h4>20160717 일요일 공연- '헤드락 여름 정기공연'</h4>
+                                </li>
+                                <li data-toggle="modal" data-target="#rentGeek">
+                                	<img src="img/perform3.jpg" alt="대관공연 3">
+                                	<h4>20160716 토요일 공연- '웨이아웃 여름공연'</h4>
+                                </li>
+                                <li data-toggle="modal" data-target="#rentGeek">
+                                	<img src="img/perform4.jpg" alt="대관공연 4">
+                                	<h4>20160707 목요일 공연- 'FLOW 19th 정기공연'</h4>
+                                </li>
+                                <li data-toggle="modal" data-target="#rentGeek">
+                                	<img src="img/perform5.jpg" alt="대관공연 5">
+                                	<h4>20160701 금요일 공연- '엑스타시'</h4>
+                                </li>
+                                <li data-toggle="modal" data-target="#rentGeek">
+                                	<img src="img/perform6.jpg" alt="대관공연 6">
+                                	<h4>20160626 일요일 공연- '씨바 멋쟁이 딱정벌레'</h4>
+                                </li>
+                            </ul>
+                        </div>
+                        <p class="prev"><i class="fa fa-angle-left" aria-hidden="true"></i></p>
+                        <p class="next"><i class="fa fa-angle-right" aria-hidden="true"></i></p>
+                    </div>
+                    <!-- 대관공연 모달 -->
+                    <div class="modal fade" id="rentGeek" tabindex="-1" role="dialog">
+                        <div class="modal-dialog modal-lg">
+                            <section class="modal-content">
+                                <header class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                    <h4 class="modal-title">GEEK LIVE HOUSE 대관공연</h4>
+                                </header>
+                                <article class="modal-body">
+                                    <ul class="rentGeeks">
+                                        <li>
+                                            <h5>20160720 수요일 공연- '난장판 여름 정기공연'</h5>
+                                            <figure>
+                                                <img src="img/perform1.jpg" alt="대관공연 1">
+                                                <figcaption>난장판 여름 정기공연</figcaption>
+                                            </figure>
+                                            <p>&lt; 공연 영상 &gt;</p>
+                                            <a href="https://www.youtube.com/embed/yIWt8Ksg3ds"><img src="https://i.ytimg.com/vi/yIWt8Ksg3ds/sddefault.jpg"></a>
+                                        </li>
+                                        <li>
+                                            <h5>20160717 일요일 공연- '헤드락 여름 정기공연'</h5>
+                                            <figure>
+                                                <img src="img/perform2.jpg" alt="대관공연 2">
+                                                <figcaption>헤드락 여름 정기공연</figcaption>
+                                            </figure>
+                                            <p>&lt; 공연 영상 &gt;</p>
+                                            <a href="https://www.youtube.com/embed/-Ax-dwKlXuI"><img src="https://i.ytimg.com/vi/-Ax-dwKlXuI/sddefault.jpg"></a>
+                                        </li>
+                                        <li>
+                                            <h5>20160716 토요일 공연- '웨이아웃 여름공연'</h5>
+                                            <figure>
+                                                <img src="img/perform3.jpg" alt="대관공연 3">
+                                                <figcaption>웨이아웃 여름공연</figcaption>
+                                            </figure>
+                                            <p>&lt; 공연 영상 &gt;</p>
+                                            <a href="https://www.youtube.com/embed/oOSRmyrQ32U"><img src="https://i.ytimg.com/vi/oOSRmyrQ32U/sddefault.jpg"></a>
+                                        </li>
+                                        <li>
+                                            <h5>20160707 목요일 공연- 'FLOW 19th 정기공연'</h5>
+                                            <figure>
+                                                <img src="img/perform4.jpg" alt="대관공연 4">
+                                                <figcaption>FLOW 19th 정기공연</figcaption>
+                                            </figure>
+                                            <p>&lt; 공연 영상 &gt;</p>
+                                            <a href="https://www.youtube.com/embed/D3ybmrnSl7c"><img src="https://i.ytimg.com/vi/D3ybmrnSl7c/sddefault.jpg"></a>
+                                        </li>
+                                        <li>
+                                            <h5>20160701 금요일 공연- '엑스타시'</h5>
+                                            <figure>
+                                                <img src="img/perform5.jpg" alt="대관공연 5">
+                                                <figcaption>엑스타시</figcaption>
+                                            </figure>
+                                        </li>
+                                        <li>
+                                            <h5>20160626 일요일 공연- '씨바 멋쟁이 딱정벌레'</h5>
+                                            <figure>
+                                                <img src="img/perform6.jpg" alt="대관공연 6">
+                                                <figcaption>씨바 멋쟁이 딱정벌레</figcaption>
+                                            </figure>
+                                        </li>
+                                    </ul>
+                                    <p class="prev_btn"><i class="fa fa-angle-left" aria-hidden="true"></i></p>
+                                    <p class="next_btn"><i class="fa fa-angle-right" aria-hidden="true"></i></p>
+                                </article>
+                                <footer class="modal-footer">
+                                    <p class="modal-page"></p>
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                </footer>
+                            </section>
+                        </div>
+                    </div>
+                </section>
+                <!-- 대관공연 갤러리 끝 -->
+            </section>
+            <!-- 공연정보 & 갤러리 컨텐츠 끝 -->
+            <!-- 공연정보 & 갤러리 푸터 시작 -->
+            <footer>
+                <div class="snsIco">
+                    <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                    <i class="fa fa-youtube" aria-hidden="true"></i>
+                </div>
+                <div class="footerCopy">
+                    <address>TEL. 02-3141-5292 &nbsp;서울시 마포구 동교동 185-10 국일빌딩 B1 (신촌로 10길 7)</address>
+                    <p>&copy; 2016. GEEK LIVE HOUSE All right reserved.</p>
+                </div>
+            </footer>
+            <!-- 공연정보 & 갤러리 푸터 끝 -->
+        </section>
+        <!-- 공연정보 & 갤러리 끝 -->
+    </div>
+    <!-- 이미지 버튼 끝 -->
+    <script type="text/javascript" src="js/event.js"></script>
+    <!-- 2016-07-14 ~ // -->
+</body>
 
-    <section class="main-content">
-      <h3>
-<a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
-
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here <a href="https://guides.github.com/features/mastering-markdown/">using GitHub Flavored Markdown</a>, select a template crafted by a designer, and publish. After your page is generated, you can check out the new <code>gh-pages</code> branch locally. If you’re using GitHub Desktop, simply sync your repository and you’ll see the new branch.</p>
-
-<h3>
-<a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Designer Templates</h3>
-
-<p>We’ve crafted some handsome templates for you to use. Go ahead and click 'Continue to layouts' to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved.</p>
-
-<h3>
-<a id="creating-pages-manually" class="anchor" href="#creating-pages-manually" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Creating pages manually</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>
-<a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Authors and Contributors</h3>
-
-<p>You can <a href="https://help.github.com/articles/basic-writing-and-formatting-syntax/#mentioning-users-and-teams" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor’s GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>
-<a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out our <a href="https://help.github.com/pages">documentation</a> or <a href="https://github.com/contact">contact support</a> and we’ll help you sort it out.</p>
-
-      <footer class="site-footer">
-        <span class="site-footer-owner"><a href="https://github.com/nongs/geek">Geek</a> is maintained by <a href="https://github.com/nongs">nongs</a>.</span>
-
-        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
-      </footer>
-
-    </section>
-
-  
-  </body>
 </html>
