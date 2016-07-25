@@ -277,6 +277,10 @@ $(function(){
 		videoScale();
 	});
 });
+/* 탑버튼 이벤트 */
+$('.top_btn').click(function(){
+	$('html, body').animate({ scrollTop: 0 }, 500);
+});
 /* 기획공연 높이값 조정 */
 function planH() {
 	var planh = $('#planGall').children('figure').height();

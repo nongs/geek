@@ -5,7 +5,7 @@ html, body {width:100%;}
 ::-webkit-scrollbar-track {background-color: transparent;}
 ::-webkit-scrollbar-thumb {background-color: crimson; box-shadow: inset 0 0 6px rgba(255,255,255,0.6); -webkit-box-shadow: inset 0 0 6px rgba(255,255,255,0.6);}
 body { position: relative; font-size: 14px; background-color: #171717; }
-body, a {font-size:14px; color: #dfdfdf; word-break: keep-all;}
+body, a {font-size:14px; color: #dfdfdf; word-break: break-all;}
 a:hover, a:focus { color : crimson; text-decoration: none; }
 h3 {font-size: 18px; line-height: 1.5;}
 figure img { max-width: 100%; }
@@ -45,6 +45,8 @@ footer .snsIco {float: left; font-size:26px;}
 footer .footerCopy {float: right; text-align: right; font-size: 12px; line-height: 1.5;}
 .backbg {width: 100%; height: 100%; display: none; position: fixed; top: 0; left: 0; background: rgba(23,23,23,.4); z-index: 1;}
 .modal-body iframe {width: 100%;}
+.top_btn {width: 40px; height: 40px; position: fixed; bottom: 5%; right: 5%; font-size: 20px; line-height: 36px; text-align: center; color:#171717; background: #efefef; border:1px solid #798979; -webkit-border-radius: 5px; -moz-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px; z-index: 2; cursor: pointer;}
+.top_btn i {font-size: 20px; text-align: center; color: #171717;}
 
 /* 인트로 스타일 */
 #intro {width: 62.5%; margin: 0 auto; }
@@ -187,8 +189,8 @@ footer .footerCopy {float: right; text-align: right; font-size: 12px; line-heigh
 #perform > section > section > figure + article { height: 500px; -webkit-transition: all .5s; -moz-transition: all .5s; -o-transition: all .5s; transition: all .5s; overflow: auto; }
 #perform > section > section > figure + article::-webkit-scrollbar-thumb { -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; border-radius: 5px;}
 #perform > section > section > figure + article > div { text-align: center; border-right: 1px solid #acacac; }
-#perform .plan_list { width: 50%; height: 90%; margin-left: 40px; }
-#perform .plan_list li { width: 40%; height: auto; margin: 2% 5%; float: left; }
+#perform .plan_list { margin-left: 0px; }
+#perform .plan_list li { width: 80%; height: auto; margin: 2% 5%; float: right; }
 #perform .plan_list li img { width: 100%; height: auto; }
 #perform .plan_gall { width: 100%; height: 100%; margin-top: 10px; margin-bottom: 30px; padding: 0 5%; position: relative;}
 #perform .plan_gall > div { width: 100%; height: 100%; overflow: hidden; float: left; }
@@ -230,8 +232,8 @@ footer .footerCopy {float: right; text-align: right; font-size: 12px; line-heigh
 	#perform .plan_gall ul { width: 180%; height: 100%;}
 	#perform .rent_gall > div {overflow: scroll;}
 	#perform .rent_gall ul { width: 400%; height: auto; margin-left: 0%; }
-	#perform .rent_gall li { width: 14.5%; height: auto; margin: 0 1%;}
-	#perform .rent_gall li.thumb_n { width: 14.5%; }
+	#perform .rent_gall li { width: 14%; height: auto; margin: 0 1%;}
+	#perform .rent_gall li.thumb_n { width: 14%; }
 	#perform .rent_gall li > img {max-height: auto;}
 	#perform .rent_gall li h4 { height: 30%; opacity: 1;}
 }
@@ -247,10 +249,13 @@ footer .footerCopy {float: right; text-align: right; font-size: 12px; line-heigh
 	#perform .rent_gall li { width: 14%; height: auto; margin: 0 1%;}
 	#perform .rent_gall li.thumb_n { width: 14%; }
 	#infoRent tfoot li > span.tfoot_block {display: block;}
-
+	#perform > section > section > figure > img { width: auto; height:300px; margin-bottom: 20px;}
+	#perform > section > section > figure + article > div { border-right: 0; }
+	#perform .plan_list li { width: 80%; margin: 10px auto; }
 }
 @media screen and (max-width: 460px) {
 	body { font-size: 12px; }
+	#perform .plan_gall ul > li { width: 13.5%;}
 }
 
 @keyframes arrowLeft {
